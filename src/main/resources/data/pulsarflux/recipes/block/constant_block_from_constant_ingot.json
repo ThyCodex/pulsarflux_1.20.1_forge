@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pulsarflux:constant_ingot"
+    }
+  },
+  "result": {
+    "item": "pulsarflux:constant_block",
+    "count": 1
+  }
+}

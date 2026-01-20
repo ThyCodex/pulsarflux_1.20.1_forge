@@ -18,7 +18,10 @@
     "pulsarflux:raw_tin_block"
   ,
     "pulsarflux:aluminum_block",
+    "pulsarflux:bronze_block",
+    "pulsarflux:constant_block",
     "pulsarflux:electrum_block",
+    "pulsarflux:invar_block",
     "pulsarflux:lead_block",
     "pulsarflux:nickel_block",
     "pulsarflux:platinum_block",

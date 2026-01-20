@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pulsarflux:block/invar_block"
+    }
+  }
+}

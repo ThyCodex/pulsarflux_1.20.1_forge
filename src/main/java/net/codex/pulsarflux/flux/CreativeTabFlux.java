@@ -35,7 +35,10 @@ public class CreativeTabFlux {
                         output.accept(ItemFlux.RAW_TIN.get());
 
                         output.accept(ItemFlux.ALUMINUM_INGOT.get());
+                        output.accept(ItemFlux.BRONZE_INGOT.get());
+                        output.accept(ItemFlux.CONSTANT_INGOT.get());
                         output.accept(ItemFlux.ELECTRUM_INGOT.get());
+                        output.accept(ItemFlux.INVAR_INGOT.get());
                         output.accept(ItemFlux.LEAD_INGOT.get());
                         output.accept(ItemFlux.NICKEL_INGOT.get());
                         output.accept(ItemFlux.PLATINUM_INGOT.get());
@@ -62,7 +65,10 @@ public class CreativeTabFlux {
                         output.accept(ItemFlux.RAW_TIN_BLOCK_ITEM.get());
 
                         output.accept(ItemFlux.ALUMINUM_BLOCK_ITEM.get());
+                        output.accept(ItemFlux.BRONZE_BLOCK_ITEM.get());
+                        output.accept(ItemFlux.CONSTANT_BLOCK_ITEM.get());
                         output.accept(ItemFlux.ELECTRUM_BLOCK_ITEM.get());
+                        output.accept(ItemFlux.INVAR_BLOCK_ITEM.get());
                         output.accept(ItemFlux.LEAD_BLOCK_ITEM.get());
                         output.accept(ItemFlux.NICKEL_BLOCK_ITEM.get());
                         output.accept(ItemFlux.PLATINUM_BLOCK_ITEM.get());

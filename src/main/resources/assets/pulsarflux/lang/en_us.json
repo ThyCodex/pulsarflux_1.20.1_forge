@@ -12,7 +12,10 @@
   "item.pulsarflux.raw_tin": "Raw Tin",
 
   "item.pulsarflux.aluminum_ingot": "Aluminum Ingot",
+  "item.pulsarflux.bronze_ingot": "Bronze Ingot",
+  "item.pulsarflux.constant_ingot": "Constant Ingot",
   "item.pulsarflux.electrum_ingot": "Electrum Ingot",
+  "item.pulsarflux.invar_ingot": "Invar Ingot",
   "item.pulsarflux.lead_ingot": "Lead Ingot",
   "item.pulsarflux.nickel_ingot": "Nickel Ingot",
   "item.pulsarflux.platinum_ingot": "Platinum Ingot",
@@ -37,7 +40,10 @@
   "block.pulsarflux.raw_tin_block": "Raw Tin Block",
 
   "block.pulsarflux.aluminum_block": "Aluminium Block",
+  "block.pulsarflux.bronze_block": "Bronze Block",
+  "block.pulsarflux.constant_block": "Constant Block",
   "block.pulsarflux.electrum_block": "Electrum Block",
+  "block.pulsarflux.invar_block": "Invar Block",
   "block.pulsarflux.lead_block": "Lead Block",
   "block.pulsarflux.nickel_block": "Nickel Block",
   "block.pulsarflux.platinum_block": "Platinum Block",

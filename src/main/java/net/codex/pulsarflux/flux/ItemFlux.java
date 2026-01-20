@@ -48,7 +48,14 @@ public class ItemFlux {
 
     public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CONSTANT_INGOT = ITEMS.register("constant_ingot",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> INVAR_INGOT = ITEMS.register("invar_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> LEAD_INGOT = ITEMS.register("lead_ingot",
             () -> new Item(new Item.Properties()));
@@ -96,8 +103,14 @@ public class ItemFlux {
 
     public static final RegistryObject<BlockItem> ALUMINUM_BLOCK_ITEM = ITEMS.register("aluminum_block",
             () -> new BlockItem(BlockFlux.ALUMINUM_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<BlockItem> BRONZE_BLOCK_ITEM = ITEMS.register("bronze_block",
+            () -> new BlockItem(BlockFlux.BRONZE_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<BlockItem> CONSTANT_BLOCK_ITEM = ITEMS.register("constant_block",
+            () -> new BlockItem(BlockFlux.CONSTANT_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<BlockItem> ELECTRUM_BLOCK_ITEM = ITEMS.register("electrum_block",
             () -> new BlockItem(BlockFlux.ELECTRUM_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<BlockItem> INVAR_BLOCK_ITEM = ITEMS.register("invar_block",
+            () -> new BlockItem(BlockFlux.INVAR_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<BlockItem> LEAD_BLOCK_ITEM = ITEMS.register("lead_block",
             () -> new BlockItem(BlockFlux.LEAD_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<BlockItem> NICKEL_BLOCK_ITEM = ITEMS.register("nickel_block",
