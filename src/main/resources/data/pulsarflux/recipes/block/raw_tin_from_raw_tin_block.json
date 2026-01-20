@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pulsarflux:raw_tin_block"
+    }
+  ],
+  "result": {
+    "item": "pulsarflux:raw_tin",
+    "count": 9
+  }
+}

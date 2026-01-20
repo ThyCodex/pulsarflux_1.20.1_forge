@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "nickel",
+  "ingredient": {
+    "item": "pulsarflux:raw_nickel"
+  },
+  "result": "pulsarflux:nickel_ingot"
+}

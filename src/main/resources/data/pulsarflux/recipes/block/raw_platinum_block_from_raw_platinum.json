@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pulsarflux:raw_platinum"
+    }
+  },
+  "result": {
+    "item": "pulsarflux:raw_platinum_block"
+  }
+}

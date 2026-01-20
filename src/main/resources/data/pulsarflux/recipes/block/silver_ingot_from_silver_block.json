@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pulsarflux:silver_block"
+    }
+  ],
+  "result": {
+    "item": "pulsarflux:silver_ingot",
+    "count": 9
+  }
+}

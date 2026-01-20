@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.7,
+  "group": "steel",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": "pulsarflux:steel_ingot"
+}

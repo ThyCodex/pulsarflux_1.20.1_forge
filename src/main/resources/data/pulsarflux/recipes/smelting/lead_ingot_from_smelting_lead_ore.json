@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "lead",
+  "ingredient": {
+    "item": "pulsarflux:lead_ore"
+  },
+  "result": "pulsarflux:lead_ingot"
+}

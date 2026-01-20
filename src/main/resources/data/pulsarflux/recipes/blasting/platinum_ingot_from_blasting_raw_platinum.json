@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "platinum",
+  "ingredient": {
+    "item": "pulsarflux:raw_platinum"
+  },
+  "result": "pulsarflux:platinum_ingot"
+}

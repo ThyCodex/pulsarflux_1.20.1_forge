@@ -1,0 +1,51 @@
+{
+  "itemGroup.pulsarflux": "Pulsarflux",
+
+  "item.pulsarflux.steel_apple": "Steel Apple",
+
+  "item.pulsarflux.raw_aluminum": "Raw Aluminum",
+  "item.pulsarflux.raw_electrum": "Raw Electrum",
+  "item.pulsarflux.raw_lead": "Raw Lead",
+  "item.pulsarflux.raw_nickel": "Raw Nickel",
+  "item.pulsarflux.raw_platinum": "Raw Platinum",
+  "item.pulsarflux.raw_silver": "Raw Silver",
+  "item.pulsarflux.raw_tin": "Raw Tin",
+
+  "item.pulsarflux.aluminum_ingot": "Aluminum Ingot",
+  "item.pulsarflux.electrum_ingot": "Electrum Ingot",
+  "item.pulsarflux.lead_ingot": "Lead Ingot",
+  "item.pulsarflux.nickel_ingot": "Nickel Ingot",
+  "item.pulsarflux.platinum_ingot": "Platinum Ingot",
+  "item.pulsarflux.silver_ingot": "Silver Ingot",
+  "item.pulsarflux.steel_ingot": "Steel Ingot",
+  "item.pulsarflux.tin_ingot": "Tin Ingot",
+
+  "block.pulsarflux.aluminum_ore": "Aluminum Ore",
+  "block.pulsarflux.electrum_ore": "Electrum Ore",
+  "block.pulsarflux.lead_ore": "Lead Ore",
+  "block.pulsarflux.nickel_ore": "Nickel Ore",
+  "block.pulsarflux.platinum_ore": "Platinum Ore",
+  "block.pulsarflux.silver_ore": "Silver Ore",
+  "block.pulsarflux.tin_ore": "Tin Ore",
+
+  "block.pulsarflux.raw_aluminum_block": "Raw Aluminum Block",
+  "block.pulsarflux.raw_electrum_block": "Raw Electrum Block",
+  "block.pulsarflux.raw_lead_block": "Raw Lead Block",
+  "block.pulsarflux.raw_nickel_block": "Raw Nickel Block",
+  "block.pulsarflux.raw_platinum_block": "Raw Platinum Block",
+  "block.pulsarflux.raw_silver_block": "Raw Silver Block",
+  "block.pulsarflux.raw_tin_block": "Raw Tin Block",
+
+  "block.pulsarflux.aluminum_block": "Aluminium Block",
+  "block.pulsarflux.electrum_block": "Electrum Block",
+  "block.pulsarflux.lead_block": "Lead Block",
+  "block.pulsarflux.nickel_block": "Nickel Block",
+  "block.pulsarflux.platinum_block": "Platinum Block",
+  "block.pulsarflux.silver_block": "Silver Block",
+  "block.pulsarflux.steel_block": "Steel Block",
+  "block.pulsarflux.tin_block": "Tin Block"
+
+
+
+
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pulsarflux:raw_aluminum_block"
+    }
+  ],
+  "result": {
+    "item": "pulsarflux:raw_aluminum",
+    "count": 9
+  }
+}

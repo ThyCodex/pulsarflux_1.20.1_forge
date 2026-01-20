@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pulsarflux:raw_aluminum"
+    }
+  },
+  "result": {
+    "item": "pulsarflux:raw_aluminum_block"
+  }
+}

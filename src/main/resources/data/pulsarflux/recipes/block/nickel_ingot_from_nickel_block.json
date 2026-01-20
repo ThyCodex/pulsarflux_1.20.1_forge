@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pulsarflux:nickel_block"
+    }
+  ],
+  "result": {
+    "item": "pulsarflux:nickel_ingot",
+    "count": 9
+  }
+}

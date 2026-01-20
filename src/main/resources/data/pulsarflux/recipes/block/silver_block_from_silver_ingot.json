@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pulsarflux:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "pulsarflux:silver_block",
+    "count": 1
+  }
+}

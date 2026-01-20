@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pulsarflux:aluminum_ingot"
+    }
+  },
+  "result": {
+    "item": "pulsarflux:aluminum_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "lead",
+  "ingredient": {
+    "item": "pulsarflux:raw_lead"
+  },
+  "result": "pulsarflux:lead_ingot"
+}

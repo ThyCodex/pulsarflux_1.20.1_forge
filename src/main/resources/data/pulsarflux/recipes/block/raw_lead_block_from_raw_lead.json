@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pulsarflux:raw_lead"
+    }
+  },
+  "result": {
+    "item": "pulsarflux:raw_lead_block"
+  }
+}
