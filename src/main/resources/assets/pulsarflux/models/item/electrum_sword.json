@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "pulsarflux:item/sword/electrum_sword"
+  }
+}

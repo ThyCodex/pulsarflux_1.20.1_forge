@@ -1,9 +1,9 @@
 {
-  "feature": "pulsarflux:electrum_ore",
+  "feature": "pulsarflux:tin_ore",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 20
+      "count": 90
     },
     {
       "type": "minecraft:in_square"
@@ -13,12 +13,11 @@
       "height": {
         "type": "minecraft:trapezoid",
         "min_inclusive": {
-          "above_bottom": 10
+          "absolute": 56
         },
         "max_inclusive": {
-          "below_top": 10
-        },
-        "plateau": 50
+          "absolute": -24
+        }
       }
     },
     {

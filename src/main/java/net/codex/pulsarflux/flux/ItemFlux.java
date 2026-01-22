@@ -1,12 +1,12 @@
 package net.codex.pulsarflux.flux;
 
 import net.codex.pulsarflux.PulsarFlux;
+import net.codex.pulsarflux.flux.utilitiesFlux.tierFlux;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeConfig;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -28,8 +28,46 @@ public class ItemFlux {
                             .build())
                     .rarity(Rarity.EPIC)
             ));
+    //-----Weapons p_43269=rarity p_43270=damage p_43271=atk.speed
 
-    //-----Other Item
+    public static final RegistryObject<SwordItem> ALUMINUM_SWORD = ITEMS.register("aluminum_sword",
+            () -> new SwordItem(tierFlux.ALUMINUM, 5, -2.2f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> BRONZE_SWORD = ITEMS.register("bronze_sword",
+            () -> new SwordItem(tierFlux.BRONZE, 5, -2.4f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> CONSTANT_SWORD = ITEMS.register("constant_sword",
+            () -> new SwordItem(tierFlux.CONSTANT, 5, -2.4f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> ELECTRUM_SWORD = ITEMS.register("electrum_sword",
+            () -> new SwordItem(tierFlux.ELECTRUM, 5, -2.5f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> INVAR_SWORD = ITEMS.register("invar_sword",
+            () -> new SwordItem(tierFlux.INVAR, 6, -2.4f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> LEAD_SWORD = ITEMS.register("lead_sword",
+            () -> new SwordItem(tierFlux.LEAD, 6, -2.9f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> NICKEL_SWORD = ITEMS.register("nickel_sword",
+            () -> new SwordItem(tierFlux.NICKEL, 5, -2.4f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> PLATINUM_SWORD = ITEMS.register("platinum_sword",
+            () -> new SwordItem(tierFlux.PLATINUM, 8, -2.4f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> SILVER_SWORD = ITEMS.register("silver_sword",
+            () -> new SwordItem(tierFlux.SILVER, 4, -2.2f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> STEEL_SWORD = ITEMS.register("steel_sword",
+            () -> new SwordItem(tierFlux.STEEL, 6, -2.4f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> TIN_SWORD = ITEMS.register("tin_sword",
+            () -> new SwordItem(tierFlux.TIN, 4, -2.4f, new Item.Properties()));
+
+    //-----Tools p_43269=rarity p_43270=damage p_43271=atk.speed
+
+    //public static final RegistryObject<PickaxeItem> TIN_PICKAXE = ITEMS.register("tin_pickaxe",
+            //() -> new PickaxeItem(tierFlux.TIN, 7, 2.0f, new Item.Properties()));
+
+    //public static final RegistryObject<AxeItem> TIN_AXE = ITEMS.register("tin_axe",
+            //() -> new AxeItem(tierFlux.TIN, 7, 2.0f, new Item.Properties()));
+
+    //public static final RegistryObject<ShovelItem> TIN_SHOVEL = ITEMS.register("tin_shovel",
+            //() -> new ShovelItem(tierFlux.TIN, 7, 2.0f, new Item.Properties()));
+
+    //public static final RegistryObject<HoeItem> TIN_HOE = ITEMS.register("tin_hoe",
+            //() -> new HoeItem(tierFlux.TIN, 7, 2.0f, new Item.Properties()));
+
+    //-----Ore_Ingots
 
     public static final RegistryObject<Item> RAW_ALUMINUM = ITEMS.register("raw_aluminum",
             () -> new Item(new Item.Properties()));
@@ -48,7 +86,6 @@ public class ItemFlux {
 
     public static final RegistryObject<Item> ALUMINUM_INGOT = ITEMS.register("aluminum_ingot",
             () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CONSTANT_INGOT = ITEMS.register("constant_ingot",

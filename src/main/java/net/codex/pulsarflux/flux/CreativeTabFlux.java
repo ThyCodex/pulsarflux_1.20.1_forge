@@ -22,10 +22,12 @@ public class CreativeTabFlux {
                     .title(Component.translatable("itemGroup.pulsarflux"))
                     .icon(ItemFlux.STEEL_APPLE.get()::getDefaultInstance)
                     .displayItems((displayParameters, output) -> {
-                        //-----Food Creative Tab
+                        //-----Foods
+
                         output.accept(ItemFlux.STEEL_APPLE.get());
 
-                        //-----Item Creative Tab
+                        //-----Items
+
                         output.accept(ItemFlux.RAW_ALUMINUM.get());
                         output.accept(ItemFlux.RAW_ELECTRUM.get());
                         output.accept(ItemFlux.RAW_LEAD.get());
@@ -46,7 +48,21 @@ public class CreativeTabFlux {
                         output.accept(ItemFlux.STEEL_INGOT.get());
                         output.accept(ItemFlux.TIN_INGOT.get());
 
-                        //-----Block Creative Tab
+                        //-----Swords
+
+                        output.accept(ItemFlux.ALUMINUM_SWORD.get());
+                        output.accept(ItemFlux.BRONZE_SWORD.get());
+                        output.accept(ItemFlux.CONSTANT_SWORD.get());
+                        output.accept(ItemFlux.ELECTRUM_SWORD.get());
+                        output.accept(ItemFlux.INVAR_SWORD.get());
+                        output.accept(ItemFlux.LEAD_SWORD.get());
+                        output.accept(ItemFlux.NICKEL_SWORD.get());
+                        output.accept(ItemFlux.PLATINUM_SWORD.get());
+                        output.accept(ItemFlux.SILVER_SWORD.get());
+                        output.accept(ItemFlux.STEEL_SWORD.get());
+                        output.accept(ItemFlux.TIN_SWORD.get());
+
+                        //-----Blocks
 
                         output.accept(ItemFlux.ALUMINUM_ORE_ITEM.get());
                         output.accept(ItemFlux.ELECTRUM_ORE_ITEM.get());
