@@ -5,7 +5,7 @@
 
   "item.pulsarflux.aluminum_sword": "Aluminum Sword",
   "item.pulsarflux.bronze_sword": "Bronze Sword",
-  "item.pulsarflux.constant_sword": "Constant Sword",
+  "item.pulsarflux.constantan_sword": "Constantan Sword",
   "item.pulsarflux.electrum_sword": "Electrum Sword",
   "item.pulsarflux.invar_sword": "Invar Sword",
   "item.pulsarflux.lead_sword": "Lead Sword",
@@ -25,7 +25,7 @@
 
   "item.pulsarflux.aluminum_ingot": "Aluminum Ingot",
   "item.pulsarflux.bronze_ingot": "Bronze Ingot",
-  "item.pulsarflux.constant_ingot": "Constant Ingot",
+  "item.pulsarflux.constantan_ingot": "Constantan Ingot",
   "item.pulsarflux.electrum_ingot": "Electrum Ingot",
   "item.pulsarflux.invar_ingot": "Invar Ingot",
   "item.pulsarflux.lead_ingot": "Lead Ingot",
@@ -53,7 +53,7 @@
 
   "block.pulsarflux.aluminum_block": "Aluminium Block",
   "block.pulsarflux.bronze_block": "Bronze Block",
-  "block.pulsarflux.constant_block": "Constant Block",
+  "block.pulsarflux.constantan_block": "Constantan Block",
   "block.pulsarflux.electrum_block": "Electrum Block",
   "block.pulsarflux.invar_block": "Invar Block",
   "block.pulsarflux.lead_block": "Lead Block",

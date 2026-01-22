@@ -8,11 +8,11 @@
   ],
   "key": {
     "#": {
-      "item": "pulsarflux:constant_ingot"
+      "item": "pulsarflux:constantan_ingot"
     }
   },
   "result": {
-    "item": "pulsarflux:constant_block",
+    "item": "pulsarflux:constantan_block",
     "count": 1
   }
 }

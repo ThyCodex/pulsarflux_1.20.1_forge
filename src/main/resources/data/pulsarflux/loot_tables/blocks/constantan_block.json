@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "pulsarflux:constant_block"
+          "name": "pulsarflux:constantan_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "pulsarflux:blocks/constant_block"
+  "random_sequence": "pulsarflux:blocks/constantan_block"
 }

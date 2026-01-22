@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "pulsarflux:constant_block"
+      "item": "pulsarflux:constantan_block"
     }
   ],
   "result": {
-    "item": "pulsarflux:constant_ingot",
+    "item": "pulsarflux:constantan_ingot",
     "count": 9
   }
 }

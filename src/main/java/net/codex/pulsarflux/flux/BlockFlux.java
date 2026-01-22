@@ -45,7 +45,7 @@ public class BlockFlux {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
     public static final RegistryObject<Block> BRONZE_BLOCK = BLOCKS.register("bronze_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-    public static final RegistryObject<Block> CONSTANT_BLOCK = BLOCKS.register("constant_block",
+    public static final RegistryObject<Block> CONSTANTAN_BLOCK = BLOCKS.register("constantan_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
     public static final RegistryObject<Block> ELECTRUM_BLOCK = BLOCKS.register("electrum_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));

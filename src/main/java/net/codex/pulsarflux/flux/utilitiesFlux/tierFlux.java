@@ -76,14 +76,14 @@ public class tierFlux {
             () -> Ingredient.of(ItemFlux.BRONZE_INGOT.get())
     );
 
-    public static final ForgeTier CONSTANT = new ForgeTier(
+    public static final ForgeTier CONSTANTAN = new ForgeTier(
             4,
             300,
             0.0f,
             0.9f,
             10,
             BlockTags.NEEDS_DIAMOND_TOOL,
-            () -> Ingredient.of(ItemFlux.CONSTANT_INGOT.get())
+            () -> Ingredient.of(ItemFlux.CONSTANTAN_INGOT.get())
     );
 
     public static final ForgeTier STEEL = new ForgeTier(

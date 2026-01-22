@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "pulsarflux:block/constant_block"
+    "all": "pulsarflux:block/constantan_block"
   }
 }

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pulsarflux:block/constantan_block"
+    }
+  }
+}

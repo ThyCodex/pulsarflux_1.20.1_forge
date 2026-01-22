@@ -5,7 +5,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -38,7 +37,7 @@ public class CreativeTabFlux {
 
                         output.accept(ItemFlux.ALUMINUM_INGOT.get());
                         output.accept(ItemFlux.BRONZE_INGOT.get());
-                        output.accept(ItemFlux.CONSTANT_INGOT.get());
+                        output.accept(ItemFlux.CONSTANTAN_INGOT.get());
                         output.accept(ItemFlux.ELECTRUM_INGOT.get());
                         output.accept(ItemFlux.INVAR_INGOT.get());
                         output.accept(ItemFlux.LEAD_INGOT.get());
@@ -52,7 +51,7 @@ public class CreativeTabFlux {
 
                         output.accept(ItemFlux.ALUMINUM_SWORD.get());
                         output.accept(ItemFlux.BRONZE_SWORD.get());
-                        output.accept(ItemFlux.CONSTANT_SWORD.get());
+                        output.accept(ItemFlux.CONSTANTAN_SWORD.get());
                         output.accept(ItemFlux.ELECTRUM_SWORD.get());
                         output.accept(ItemFlux.INVAR_SWORD.get());
                         output.accept(ItemFlux.LEAD_SWORD.get());
@@ -82,7 +81,7 @@ public class CreativeTabFlux {
 
                         output.accept(ItemFlux.ALUMINUM_BLOCK_ITEM.get());
                         output.accept(ItemFlux.BRONZE_BLOCK_ITEM.get());
-                        output.accept(ItemFlux.CONSTANT_BLOCK_ITEM.get());
+                        output.accept(ItemFlux.CONSTANTAN_BLOCK_ITEM.get());
                         output.accept(ItemFlux.ELECTRUM_BLOCK_ITEM.get());
                         output.accept(ItemFlux.INVAR_BLOCK_ITEM.get());
                         output.accept(ItemFlux.LEAD_BLOCK_ITEM.get());

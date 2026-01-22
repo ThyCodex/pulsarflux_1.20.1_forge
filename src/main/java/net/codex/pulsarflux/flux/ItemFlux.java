@@ -10,8 +10,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import javax.swing.text.html.HTML;
-
 public class ItemFlux {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, PulsarFlux.MOD_ID);
 
@@ -35,8 +33,8 @@ public class ItemFlux {
             () -> new SwordItem(tierFlux.ALUMINUM, 5, -2.2f, new Item.Properties()));
     public static final RegistryObject<SwordItem> BRONZE_SWORD = ITEMS.register("bronze_sword",
             () -> new SwordItem(tierFlux.BRONZE, 5, -2.4f, new Item.Properties()));
-    public static final RegistryObject<SwordItem> CONSTANT_SWORD = ITEMS.register("constant_sword",
-            () -> new SwordItem(tierFlux.CONSTANT, 5, -2.4f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> CONSTANTAN_SWORD = ITEMS.register("constantan_sword",
+            () -> new SwordItem(tierFlux.CONSTANTAN, 5, -2.4f, new Item.Properties()));
     public static final RegistryObject<SwordItem> ELECTRUM_SWORD = ITEMS.register("electrum_sword",
             () -> new SwordItem(tierFlux.ELECTRUM, 5, -2.5f, new Item.Properties()));
     public static final RegistryObject<SwordItem> INVAR_SWORD = ITEMS.register("invar_sword",
@@ -89,7 +87,7 @@ public class ItemFlux {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BRONZE_INGOT = ITEMS.register("bronze_ingot",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> CONSTANT_INGOT = ITEMS.register("constant_ingot",
+    public static final RegistryObject<Item> CONSTANTAN_INGOT = ITEMS.register("constantan_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ELECTRUM_INGOT = ITEMS.register("electrum_ingot",
             () -> new Item(new Item.Properties()));
@@ -143,8 +141,8 @@ public class ItemFlux {
             () -> new BlockItem(BlockFlux.ALUMINUM_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<BlockItem> BRONZE_BLOCK_ITEM = ITEMS.register("bronze_block",
             () -> new BlockItem(BlockFlux.BRONZE_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
-    public static final RegistryObject<BlockItem> CONSTANT_BLOCK_ITEM = ITEMS.register("constant_block",
-            () -> new BlockItem(BlockFlux.CONSTANT_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<BlockItem> CONSTANTAN_BLOCK_ITEM = ITEMS.register("constantan_block",
+            () -> new BlockItem(BlockFlux.CONSTANTAN_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<BlockItem> ELECTRUM_BLOCK_ITEM = ITEMS.register("electrum_block",
             () -> new BlockItem(BlockFlux.ELECTRUM_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<BlockItem> INVAR_BLOCK_ITEM = ITEMS.register("invar_block",

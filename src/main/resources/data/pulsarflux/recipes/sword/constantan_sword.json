@@ -8,14 +8,14 @@
   ],
   "key": {
     "#": {
-      "item": "pulsarflux:constant_ingot"
+      "item": "pulsarflux:constantan_ingot"
     },
     "$": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "pulsarflux:constant_sword",
+    "item": "pulsarflux:constantan_sword",
     "count": 1
   }
 }
