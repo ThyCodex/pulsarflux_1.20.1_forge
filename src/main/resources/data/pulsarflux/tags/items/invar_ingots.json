@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "pulsarflux:tin_ingot"
+    "#pulsarflux:invar_ingot"
   ]
 }

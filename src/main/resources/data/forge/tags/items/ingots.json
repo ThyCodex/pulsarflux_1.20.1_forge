@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#forge:ingots/aluminum",
+    "#forge:ingots/bronze",
+    "#forge:ingots/constant",
+    "#forge:ingots/electrum",
+    "#forge:ingots/invar",
+    "#forge:ingots/nickel",
+    "#forge:ingots/platinum",
+    "#forge:ingots/silver",
+    "#forge:ingots/steel",
+    "#forge:ingots/tin"
+  ]
+}

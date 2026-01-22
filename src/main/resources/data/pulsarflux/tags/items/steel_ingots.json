@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "pulsarflux:bronze_ingot"
+    "#pulsarflux:steel_ingot"
   ]
 }

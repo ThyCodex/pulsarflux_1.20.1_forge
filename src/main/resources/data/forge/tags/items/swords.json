@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#forge:swords/aluminum_sword",
+    "#forge:swords/bronze_sword",
+    "#forge:swords/constant_sword",
+    "#forge:swords/electrum_sword",
+    "#forge:swords/invar_sword",
+    "#forge:swords/nickel_sword",
+    "#forge:swords/platinum_sword",
+    "#forge:swords/silver_sword",
+    "#forge:swords/steel_sword",
+    "#forge:swords/tin_sword"
+  ]
+}

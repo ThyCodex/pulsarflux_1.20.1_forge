@@ -1,6 +1,5 @@
 {
-  "replace": false,
   "values": [
-    "pulsarflux:aluminum_sword"
+    "#pulsarflux:aluminum_sword"
   ]
 }
