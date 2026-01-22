@@ -1,3 +1,8 @@
 {
-  "values": []
+  "replace": false,
+  "values": [
+    "pulsarflux:tin_ore",
+    "pulsarflux:aluminum_ore",
+    "pulsarflux:nickel_ore"
+  ]
 }

@@ -1,3 +1,7 @@
 {
-  "values": []
+  "replace": false,
+  "values": [
+    "pulsarflux:platinum_ore",
+    "pulsarflux:electrum_ore"
+  ]
 }

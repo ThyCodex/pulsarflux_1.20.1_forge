@@ -8,11 +8,11 @@
           "tag": "minecraft:stone_ore_replaceables"
         },
         "state": {
-          "Name": "pulsarflux:tin_ore"
+          "Name": "pulsarflux:silver_ore"
         }
       }
     ],
-    "size": 10,
+    "size": 6,
     "discard_chance_on_air_exposure": 0
   }
 }

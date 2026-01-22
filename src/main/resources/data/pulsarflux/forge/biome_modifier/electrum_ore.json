@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "features": "pulsarflux:tin_ore_placed",
+  "features": "pulsarflux:electrum_ore_placed",
   "biomes": "#minecraft:is_overworld",
   "step": "underground_ores"
 }
