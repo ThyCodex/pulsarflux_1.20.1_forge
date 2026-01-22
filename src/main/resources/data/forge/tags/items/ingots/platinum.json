@@ -1,5 +1,6 @@
 {
+  "replace": "false",
   "values": [
-    "#pulsarflux:platinum_ingots"
+    "pulsarflux:platinum_ingot"
   ]
 }

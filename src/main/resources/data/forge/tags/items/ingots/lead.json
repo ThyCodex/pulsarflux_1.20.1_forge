@@ -1,5 +1,6 @@
 {
+  "replace": "false",
   "values": [
-    "#pulsarflux:lead_ingots"
+    "pulsarflux:lead_ingot"
   ]
 }
