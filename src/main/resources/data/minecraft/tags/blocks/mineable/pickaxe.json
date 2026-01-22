@@ -1,4 +1,5 @@
 {
+  "replace:": false,
   "values": [
 
     "pulsarflux:aluminum_ore",
@@ -8,18 +9,16 @@
     "pulsarflux:platinum_ore",
     "pulsarflux:silver_ore",
     "pulsarflux:tin_ore",
-
     "pulsarflux:raw_aluminum_block",
     "pulsarflux:raw_electrum_block",
     "pulsarflux:raw_lead_block",
     "pulsarflux:raw_nickel_block",
     "pulsarflux:raw_platinum_block",
     "pulsarflux:raw_silver_block",
-    "pulsarflux:raw_tin_block"
-  ,
+    "pulsarflux:raw_tin_block",
     "pulsarflux:aluminum_block",
     "pulsarflux:bronze_block",
-    "pulsarflux:constant_block",
+    "pulsarflux:constantan_block",
     "pulsarflux:electrum_block",
     "pulsarflux:invar_block",
     "pulsarflux:lead_block",
