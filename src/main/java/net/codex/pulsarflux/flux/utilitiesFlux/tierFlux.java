@@ -1,6 +1,6 @@
 package net.codex.pulsarflux.flux.utilitiesFlux;
 
-import net.codex.pulsarflux.flux.ItemFlux;
+import net.codex.pulsarflux.flux.MaterialFlux;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;
@@ -23,7 +23,7 @@ public class tierFlux {
             0.5f,
             8,
             BlockTags.NEEDS_STONE_TOOL,
-            () -> Ingredient.of(ItemFlux.TIN_INGOT.get())
+            () -> Ingredient.of(MaterialFlux.TIN_INGOT.get())
     );
 
     public static final ForgeTier ALUMINUM = new ForgeTier(
@@ -33,7 +33,7 @@ public class tierFlux {
             0.5f,
             14,
             BlockTags.NEEDS_IRON_TOOL,
-            () -> Ingredient.of(ItemFlux.ALUMINUM_INGOT.get())
+            () -> Ingredient.of(MaterialFlux.ALUMINUM_INGOT.get())
     );
 
     public static final ForgeTier LEAD = new ForgeTier(
@@ -43,7 +43,7 @@ public class tierFlux {
             0.5f,
             6,
             BlockTags.NEEDS_IRON_TOOL,
-            () -> Ingredient.of(ItemFlux.LEAD_INGOT.get())
+            () -> Ingredient.of(MaterialFlux.LEAD_INGOT.get())
     );
 
     public static final ForgeTier NICKEL = new ForgeTier(
@@ -53,7 +53,7 @@ public class tierFlux {
             0.5f,
             12,
             BlockTags.NEEDS_IRON_TOOL,
-            () -> Ingredient.of(ItemFlux.NICKEL_INGOT.get())
+            () -> Ingredient.of(MaterialFlux.NICKEL_INGOT.get())
     );
 
     public static final ForgeTier ELECTRUM = new ForgeTier(
@@ -63,7 +63,7 @@ public class tierFlux {
             0.8f,
             22,
             BlockTags.NEEDS_IRON_TOOL,
-            () -> Ingredient.of(ItemFlux.ELECTRUM_INGOT.get())
+            () -> Ingredient.of(MaterialFlux.ELECTRUM_INGOT.get())
     );
 
     public static final ForgeTier BRONZE = new ForgeTier(
@@ -73,7 +73,7 @@ public class tierFlux {
             0.8f,
             12,
             BlockTags.NEEDS_IRON_TOOL,
-            () -> Ingredient.of(ItemFlux.BRONZE_INGOT.get())
+            () -> Ingredient.of(MaterialFlux.BRONZE_INGOT.get())
     );
 
     public static final ForgeTier CONSTANTAN = new ForgeTier(
@@ -83,7 +83,7 @@ public class tierFlux {
             0.9f,
             10,
             BlockTags.NEEDS_DIAMOND_TOOL,
-            () -> Ingredient.of(ItemFlux.CONSTANTAN_INGOT.get())
+            () -> Ingredient.of(MaterialFlux.CONSTANTAN_INGOT.get())
     );
 
     public static final ForgeTier STEEL = new ForgeTier(
@@ -93,7 +93,7 @@ public class tierFlux {
             0.5f,
             10,
             BlockTags.NEEDS_DIAMOND_TOOL,
-            () -> Ingredient.of(ItemFlux.STEEL_INGOT.get())
+            () -> Ingredient.of(MaterialFlux.STEEL_INGOT.get())
     );
 
     public static final ForgeTier INVAR = new ForgeTier(
@@ -103,7 +103,7 @@ public class tierFlux {
             0.8f,
             14,
             BlockTags.NEEDS_DIAMOND_TOOL,
-            () -> Ingredient.of(ItemFlux.INVAR_INGOT.get())
+            () -> Ingredient.of(MaterialFlux.INVAR_INGOT.get())
     );
 
     public static final ForgeTier SILVER = new ForgeTier(
@@ -113,7 +113,7 @@ public class tierFlux {
             0.0f,
             20,
             BlockTags.NEEDS_IRON_TOOL,
-            () -> Ingredient.of(ItemFlux.SILVER_INGOT.get())
+            () -> Ingredient.of(MaterialFlux.SILVER_INGOT.get())
     );
 
     public static final ForgeTier PLATINUM = new ForgeTier(
@@ -123,6 +123,6 @@ public class tierFlux {
             0.5f,
             22,
             BlockTags.NEEDS_DIAMOND_TOOL,
-            () -> Ingredient.of(ItemFlux.PLATINUM_INGOT.get())
+            () -> Ingredient.of(MaterialFlux.PLATINUM_INGOT.get())
     );
 }
