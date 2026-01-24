@@ -1,14 +1,13 @@
 package net.codex.pulsarflux;
 
-import net.codex.pulsarflux.flux.BlockFlux;
-import net.codex.pulsarflux.flux.BlockFluxItems;
-import net.codex.pulsarflux.flux.CreativeTabFlux;
-import net.codex.pulsarflux.flux.FoodFlux;
-import net.codex.pulsarflux.flux.MaterialFlux;
-import net.codex.pulsarflux.flux.SwordFlux;
+import net.codex.pulsarflux.config.PulsarFluxConfig;
+import net.minecraftforge.fml.config.ModConfig;
+import net.codex.pulsarflux.flux.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.ModLoadingContext;
+
 
 @Mod(PulsarFlux.MOD_ID)
 public class PulsarFlux {
@@ -24,5 +23,11 @@ public class PulsarFlux {
         BlockFlux.BLOCKS.register(bus);
         BlockFluxItems.register(bus);
         CreativeTabFlux.TABS.register(bus);
+
+        // Register mob tier events
+        MobTierEvents.register();
+
+        // ---- REGISTER CONFIG ----
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, PulsarFluxConfig.COMMON_SPEC);
     }
 }
