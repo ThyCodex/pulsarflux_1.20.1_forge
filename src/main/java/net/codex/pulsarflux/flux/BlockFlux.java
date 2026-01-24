@@ -17,6 +17,8 @@ public class BlockFlux {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> LEAD_ORE = BLOCKS.register("lead_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> LONSDALEITE_ORE = BLOCKS.register("lonsdaleite_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> NICKEL_ORE = BLOCKS.register("nickel_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> PLATINUM_ORE = BLOCKS.register("platinum_ore",
@@ -26,11 +28,14 @@ public class BlockFlux {
     public static final RegistryObject<Block> TIN_ORE = BLOCKS.register("tin_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
 
+
     public static final RegistryObject<Block> RAW_ALUMINUM_BLOCK = BLOCKS.register("raw_aluminum_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
     public static final RegistryObject<Block> RAW_ELECTRUM_BLOCK = BLOCKS.register("raw_electrum_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
     public static final RegistryObject<Block> RAW_LEAD_BLOCK = BLOCKS.register("raw_lead_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
+    public static final RegistryObject<Block> RAW_LONSDALEITE_BLOCK = BLOCKS.register("raw_lonsdaleite_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
     public static final RegistryObject<Block> RAW_NICKEL_BLOCK = BLOCKS.register("raw_nickel_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
@@ -40,6 +45,8 @@ public class BlockFlux {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
     public static final RegistryObject<Block> RAW_TIN_BLOCK = BLOCKS.register("raw_tin_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
+
+
 
     public static final RegistryObject<Block> ALUMINUM_BLOCK = BLOCKS.register("aluminum_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
@@ -53,6 +60,8 @@ public class BlockFlux {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
     public static final RegistryObject<Block> LEAD_BLOCK = BLOCKS.register("lead_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+    public static final RegistryObject<Block> LONSDALEITE_BLOCK = BLOCKS.register("lonsdaleite_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
     public static final RegistryObject<Block> NICKEL_BLOCK = BLOCKS.register("nickel_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
     public static final RegistryObject<Block> PLATINUM_BLOCK = BLOCKS.register("platinum_block",
@@ -63,5 +72,7 @@ public class BlockFlux {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
     public static final RegistryObject<Block> TIN_BLOCK = BLOCKS.register("tin_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+
+
 
 }

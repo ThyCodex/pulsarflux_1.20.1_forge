@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pulsarflux:raw_lonsdaleite"
+    },
+    {
+      "item": "pulsarflux:raw_lonsdaleite"
+    },
+    {
+      "item": "pulsarflux:raw_lonsdaleite"
+    },
+    {
+      "item": "pulsarflux:raw_lonsdaleite"
+    },
+    {
+      "item": "pulsarflux:platinum_ingot"
+    },
+    {
+      "item": "pulsarflux:platinum_ingot"
+    },
+    {
+      "item": "pulsarflux:platinum_ingot"
+    },
+    {
+      "item": "pulsarflux:platinum_ingot"
+    }
+  ],
+  "result": {
+    "item": "pulsarflux:lonsdaleite_ingot",
+    "count": 1
+  }
+}

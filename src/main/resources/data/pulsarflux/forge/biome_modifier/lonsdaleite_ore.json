@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "step": "underground_ores",
+  "features": [
+    "pulsarflux:lonsdaleite_ore_large_placed",
+    "pulsarflux:lonsdaleite_ore_small_placed"
+  ]
+}

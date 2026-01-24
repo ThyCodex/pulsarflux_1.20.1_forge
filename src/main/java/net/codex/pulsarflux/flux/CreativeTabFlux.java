@@ -31,6 +31,7 @@ public class CreativeTabFlux {
                         output.accept(MaterialFlux.RAW_ALUMINUM.get());
                         output.accept(MaterialFlux.RAW_ELECTRUM.get());
                         output.accept(MaterialFlux.RAW_LEAD.get());
+                        output.accept(MaterialFlux.RAW_LONSDALEITE.get());
                         output.accept(MaterialFlux.RAW_NICKEL.get());
                         output.accept(MaterialFlux.RAW_PLATINUM.get());
                         output.accept(MaterialFlux.RAW_SILVER.get());
@@ -42,6 +43,7 @@ public class CreativeTabFlux {
                         output.accept(MaterialFlux.ELECTRUM_INGOT.get());
                         output.accept(MaterialFlux.INVAR_INGOT.get());
                         output.accept(MaterialFlux.LEAD_INGOT.get());
+                        output.accept(MaterialFlux.LONSDALEITE_INGOT.get());
                         output.accept(MaterialFlux.NICKEL_INGOT.get());
                         output.accept(MaterialFlux.PLATINUM_INGOT.get());
                         output.accept(MaterialFlux.SILVER_INGOT.get());
@@ -68,6 +70,7 @@ public class CreativeTabFlux {
                         output.accept(BlockFluxItems.ELECTRUM_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.INVAR_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.LEAD_BLOCK_ITEM.get());
+                        output.accept(BlockFluxItems.LONSDALEITE_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.NICKEL_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.PLATINUM_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.SILVER_BLOCK_ITEM.get());
@@ -78,6 +81,7 @@ public class CreativeTabFlux {
                         output.accept(BlockFluxItems.ALUMINUM_ORE_ITEM.get());
                         output.accept(BlockFluxItems.ELECTRUM_ORE_ITEM.get());
                         output.accept(BlockFluxItems.LEAD_ORE_ITEM.get());
+                        output.accept(BlockFluxItems.LONSDALEITE_ORE_ITEM.get());
                         output.accept(BlockFluxItems.NICKEL_ORE_ITEM.get());
                         output.accept(BlockFluxItems.PLATINUM_ORE_ITEM.get());
                         output.accept(BlockFluxItems.SILVER_ORE_ITEM.get());
@@ -87,6 +91,7 @@ public class CreativeTabFlux {
                         output.accept(BlockFluxItems.RAW_ALUMINUM_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.RAW_ELECTRUM_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.RAW_LEAD_BLOCK_ITEM.get());
+                        output.accept(BlockFluxItems.RAW_LONSDALEITE_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.RAW_NICKEL_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.RAW_PLATINUM_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.RAW_SILVER_BLOCK_ITEM.get());

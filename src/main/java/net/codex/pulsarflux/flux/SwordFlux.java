@@ -1,7 +1,7 @@
 package net.codex.pulsarflux.flux;
 
 import net.codex.pulsarflux.PulsarFlux;
-import net.codex.pulsarflux.flux.ToolEffect.LeadSwordItem;
+import net.codex.pulsarflux.flux.ToolConfigs.LeadSwordItem;
 import net.codex.pulsarflux.flux.utilitiesFlux.tierFlux;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
@@ -43,4 +43,8 @@ public class SwordFlux {
             () -> new SwordItem(tierFlux.STEEL, 6, -2.4f, new Item.Properties()));
     public static final RegistryObject<SwordItem> TIN_SWORD = ITEMS.register("tin_sword",
             () -> new SwordItem(tierFlux.TIN, 4, -2.4f, new Item.Properties()));
+
+    // Mining tools
+
+
 }

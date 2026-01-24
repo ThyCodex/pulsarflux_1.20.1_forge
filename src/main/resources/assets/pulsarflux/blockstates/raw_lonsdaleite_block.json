@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pulsarflux:block/raw_lonsdaleite_block"
+    }
+  }
+}

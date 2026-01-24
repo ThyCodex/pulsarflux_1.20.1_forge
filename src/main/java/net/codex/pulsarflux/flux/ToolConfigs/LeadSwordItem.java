@@ -1,4 +1,4 @@
-package net.codex.pulsarflux.flux.ToolEffect;
+package net.codex.pulsarflux.flux.ToolConfigs;
 
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;

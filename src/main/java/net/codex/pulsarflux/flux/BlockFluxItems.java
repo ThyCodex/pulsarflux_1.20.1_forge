@@ -28,6 +28,8 @@ public class BlockFluxItems {
             () -> new BlockItem(BlockFlux.INVAR_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> LEAD_BLOCK_ITEM = ITEMS.register("lead_block",
             () -> new BlockItem(BlockFlux.LEAD_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> LONSDALEITE_BLOCK_ITEM = ITEMS.register("lonsdaleite_block",
+            () -> new BlockItem(BlockFlux.LONSDALEITE_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> NICKEL_BLOCK_ITEM = ITEMS.register("nickel_block",
             () -> new BlockItem(BlockFlux.NICKEL_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> PLATINUM_BLOCK_ITEM = ITEMS.register("platinum_block",
@@ -46,6 +48,8 @@ public class BlockFluxItems {
             () -> new BlockItem(BlockFlux.ELECTRUM_ORE.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> LEAD_ORE_ITEM = ITEMS.register("lead_ore",
             () -> new BlockItem(BlockFlux.LEAD_ORE.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> LONSDALEITE_ORE_ITEM = ITEMS.register("lonsdaleite_ore",
+            () -> new BlockItem(BlockFlux.LONSDALEITE_ORE.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> NICKEL_ORE_ITEM = ITEMS.register("nickel_ore",
             () -> new BlockItem(BlockFlux.NICKEL_ORE.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> PLATINUM_ORE_ITEM = ITEMS.register("platinum_ore",
@@ -62,6 +66,8 @@ public class BlockFluxItems {
             () -> new BlockItem(BlockFlux.RAW_ELECTRUM_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> RAW_LEAD_BLOCK_ITEM = ITEMS.register("raw_lead_block",
             () -> new BlockItem(BlockFlux.RAW_LEAD_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> RAW_LONSDALEITE_BLOCK_ITEM = ITEMS.register("raw_lonsdaleite_block",
+            () -> new BlockItem(BlockFlux.RAW_LONSDALEITE_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> RAW_NICKEL_BLOCK_ITEM = ITEMS.register("raw_nickel_block",
             () -> new BlockItem(BlockFlux.RAW_NICKEL_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> RAW_PLATINUM_BLOCK_ITEM = ITEMS.register("raw_platinum_block",
