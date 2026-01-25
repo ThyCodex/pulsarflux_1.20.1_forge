@@ -63,6 +63,21 @@ public class CreativeTabFlux {
                         output.accept(SwordFlux.STEEL_SWORD.get());
                         output.accept(SwordFlux.TIN_SWORD.get());
 
+                        //-----Tools
+
+                        output.accept(ToolFlux.BRONZE_AXE.get());
+                        output.accept(ToolFlux.BRONZE_HOE.get());
+                        output.accept(ToolFlux.BRONZE_PICKAXE.get());
+                        output.accept(ToolFlux.BRONZE_SHOVEL.get());
+                        output.accept(ToolFlux.PLATINUM_AXE.get());
+                        output.accept(ToolFlux.PLATINUM_HOE.get());
+                        output.accept(ToolFlux.PLATINUM_PICKAXE.get());
+                        output.accept(ToolFlux.PLATINUM_SHOVEL.get());
+                        output.accept(ToolFlux.STEEL_AXE.get());
+                        output.accept(ToolFlux.STEEL_HOE.get());
+                        output.accept(ToolFlux.STEEL_PICKAXE.get());
+                        output.accept(ToolFlux.STEEL_SHOVEL.get());
+
                         //-----Blocks
                         output.accept(BlockFluxItems.ALUMINUM_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.BRONZE_BLOCK_ITEM.get());

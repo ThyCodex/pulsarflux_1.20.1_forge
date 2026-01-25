@@ -20,6 +20,7 @@ public class PulsarFlux {
         FoodFlux.register(bus);
         MaterialFlux.register(bus);
         SwordFlux.register(bus);
+        ToolFlux.register(bus);
         BlockFlux.BLOCKS.register(bus);
         BlockFluxItems.register(bus);
         CreativeTabFlux.TABS.register(bus);

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    " $ ",
+    " $ "
+  ],
+  "key": {
+    "#": {
+      "item": "pulsarflux:steel_ingot"
+    },
+    "$": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pulsarflux:steel_pickaxe",
+    "count": 1
+  }
+}
