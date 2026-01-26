@@ -11,6 +11,8 @@ import net.minecraftforge.registries.RegistryObject;
 public class BlockFlux {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, PulsarFlux.MOD_ID);
 
+    //-----Ore
+
     public static final RegistryObject<Block> ALUMINUM_ORE = BLOCKS.register("aluminum_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> ELECTRUM_ORE = BLOCKS.register("electrum_ore",
@@ -28,6 +30,7 @@ public class BlockFlux {
     public static final RegistryObject<Block> TIN_ORE = BLOCKS.register("tin_ore",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
 
+    //-----Raw Block
 
     public static final RegistryObject<Block> RAW_ALUMINUM_BLOCK = BLOCKS.register("raw_aluminum_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
@@ -46,7 +49,7 @@ public class BlockFlux {
     public static final RegistryObject<Block> RAW_TIN_BLOCK = BLOCKS.register("raw_tin_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
 
-
+    //-----Ingot Block
 
     public static final RegistryObject<Block> ALUMINUM_BLOCK = BLOCKS.register("aluminum_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));

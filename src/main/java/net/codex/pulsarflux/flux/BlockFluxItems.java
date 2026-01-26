@@ -76,4 +76,7 @@ public class BlockFluxItems {
             () -> new BlockItem(BlockFlux.RAW_SILVER_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> RAW_TIN_BLOCK_ITEM = ITEMS.register("raw_tin_block",
             () -> new BlockItem(BlockFlux.RAW_TIN_BLOCK.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
+
+
 }
+

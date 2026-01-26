@@ -64,7 +64,6 @@ public class CreativeTabFlux {
                         output.accept(SwordFlux.TIN_SWORD.get());
 
                         //-----Tools
-
                         output.accept(ToolFlux.BRONZE_AXE.get());
                         output.accept(ToolFlux.BRONZE_HOE.get());
                         output.accept(ToolFlux.BRONZE_PICKAXE.get());
@@ -78,7 +77,7 @@ public class CreativeTabFlux {
                         output.accept(ToolFlux.STEEL_PICKAXE.get());
                         output.accept(ToolFlux.STEEL_SHOVEL.get());
 
-                        //-----Blocks
+                        //-----Ingot Blocks
                         output.accept(BlockFluxItems.ALUMINUM_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.BRONZE_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.CONSTANTAN_BLOCK_ITEM.get());
@@ -111,6 +110,7 @@ public class CreativeTabFlux {
                         output.accept(BlockFluxItems.RAW_PLATINUM_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.RAW_SILVER_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.RAW_TIN_BLOCK_ITEM.get());
+
 
                     })
                     .build()
