@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#$#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "pulsarflux:bronze_ingot"
+    },
+    "$": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "pulsarflux:bronze_apple"
+  }
+}
+

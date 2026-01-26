@@ -25,7 +25,18 @@ public class CreativeTabFlux {
                     .displayItems((displayParameters, output) -> {
 
                         //-----Food
+                        output.accept(FoodFlux.ALUMINUM_APPLE.get());
+                        output.accept(FoodFlux.BRONZE_APPLE.get());
+                        output.accept(FoodFlux.CONSTANTAN_APPLE.get());
+                        output.accept(FoodFlux.ELECTRUM_APPLE.get());
+                        output.accept(FoodFlux.INVAR_APPLE.get());
+                        output.accept(FoodFlux.LEAD_APPLE.get());
+                        output.accept(FoodFlux.LONSDALEITE_APPLE.get());
+                        output.accept(FoodFlux.NICKEL_APPLE.get());
+                        output.accept(FoodFlux.PLATINUM_APPLE.get());
+                        output.accept(FoodFlux.SILVER_APPLE.get());
                         output.accept(FoodFlux.STEEL_APPLE.get());
+                        output.accept(FoodFlux.TIN_APPLE.get());
 
                         //-----Materials / Ingots
                         output.accept(MaterialFlux.RAW_ALUMINUM.get());

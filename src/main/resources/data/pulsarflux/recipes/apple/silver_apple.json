@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "###",
+    " # ",
     "#$#",
-    "###"
+    " # "
   ],
   "key": {
     "#": {
-      "item": "pulsarflux:steel_ingot"
+      "item": "pulsarflux:silver_ingot"
     },
     "$": {
       "item": "minecraft:apple"
     }
   },
   "result": {
-    "item": "pulsarflux:steel_apple"
+    "item": "pulsarflux:silver_apple"
   }
 }
 

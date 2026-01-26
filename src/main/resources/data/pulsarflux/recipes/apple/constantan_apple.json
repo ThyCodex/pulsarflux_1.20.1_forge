@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#$#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "pulsarflux:constantan_ingot"
+    },
+    "$": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "pulsarflux:constantan_apple"
+  }
+}
+

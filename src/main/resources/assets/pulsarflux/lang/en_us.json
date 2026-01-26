@@ -1,7 +1,19 @@
 {
   "itemGroup.pulsarflux": "Pulsarflux",
 
+  "item.pulsarflux.aluminum_apple": "Aluminum Apple",
+  "item.pulsarflux.bronze_apple": "Bronze Apple",
+  "item.pulsarflux.constantan_apple": "Constantan Apple",
+  "item.pulsarflux.electrum_apple": "Electrum Apple",
+  "item.pulsarflux.invar_apple": "Invar Apple",
+  "item.pulsarflux.lead_apple": "Lead Apple",
+  "item.pulsarflux.lonsdaleite_apple": "Lonsdaleite Apple",
+  "item.pulsarflux.nickel_apple": "Nickel Apple",
+  "item.pulsarflux.platinum_apple": "Platinum Apple",
+  "item.pulsarflux.silver_apple": "Silver Apple",
   "item.pulsarflux.steel_apple": "Steel Apple",
+  "item.pulsarflux.tin_apple": "Tin Apple",
+
 
   "item.pulsarflux.aluminum_sword": "Aluminum Sword",
   "item.pulsarflux.bronze_sword": "Bronze Sword",

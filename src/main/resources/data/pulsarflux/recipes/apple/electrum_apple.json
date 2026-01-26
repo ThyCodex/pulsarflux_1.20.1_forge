@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "#$#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "pulsarflux:electrum_ingot"
+    },
+    "$": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "pulsarflux:electrum_apple"
+  }
+}
+
