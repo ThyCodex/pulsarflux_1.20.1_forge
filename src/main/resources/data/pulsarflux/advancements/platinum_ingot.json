@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "has_platinum_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:platinum_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:apple/platinum_apple",
+      "pulsarflux:sword/platinum_sword",
+      "pulsarflux:tool/platinum_axe",
+      "pulsarflux:tool/platinum_hoe",
+      "pulsarflux:tool/platinum_pickaxe",
+      "pulsarflux:tool/platinum_shovel",
+      "pulsarflux:block/platinum_block_from_platinum_ingot",
+      "pulsarflux:block/platinum_ingot_from_platinum_block",
+      "pulsarflux:crafting_table/lonsdaleite_from_lonsdaleite_and_platinum"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "has_raw_aluminum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:raw_aluminum"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:block/raw_aluminum_block_from_raw_aluminum",
+      "pulsarflux:block/raw_aluminum_from_raw_aluminum_block",
+      "pulsarflux:blasting/aluminum_ingot_from_blasting_aluminum_ore",
+      "pulsarflux:blasting/aluminum_ingot_from_blasting_raw_aluminum",
+      "pulsarflux:smelting/aluminum_ingot_from_smelting_aluminum_ore",
+      "pulsarflux:smelting/aluminum_ingot_from_smelting_raw_aluminum"
+    ]
+  },
+  "sends_telemetry_event": false
+}

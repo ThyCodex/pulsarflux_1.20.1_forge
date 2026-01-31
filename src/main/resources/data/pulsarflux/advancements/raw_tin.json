@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "has_raw_tin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:raw_tin"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:block/raw_tin_block_from_raw_tin",
+      "pulsarflux:block/raw_tin_from_raw_tin_block",
+      "pulsarflux:blasting/tin_ingot_from_blasting_tin_ore",
+      "pulsarflux:blasting/tin_ingot_from_blasting_raw_tin",
+      "pulsarflux:smelting/tin_ingot_from_smelting_tin_ore",
+      "pulsarflux:smelting/tin_ingot_from_smelting_raw_tin"
+    ]
+  },
+  "sends_telemetry_event": false
+}

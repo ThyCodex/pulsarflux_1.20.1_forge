@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "has_nickel_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:nickel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:apple/nickel_apple",
+      "pulsarflux:sword/nickel_sword",
+      "pulsarflux:block/nickel_block_from_nickel_ingot",
+      "pulsarflux:block/nickel_ingot_from_nickel_block",
+      "pulsarflux:crafting_table/constantan_from_iron_and_nickel",
+      "pulsarflux:crafting_table/invar_from_copper_and_nickel"
+    ]
+  },
+  "sends_telemetry_event": false
+}

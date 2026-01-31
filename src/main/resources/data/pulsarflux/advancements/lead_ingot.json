@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "has_lead_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:lead_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:apple/lead_apple",
+      "pulsarflux:sword/lead_sword",
+      "pulsarflux:block/lead_block_from_lead_ingot",
+      "pulsarflux:block/lead_ingot_from_lead_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "has_invar_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:invar_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:apple/invar_apple",
+      "pulsarflux:sword/invar_sword",
+      "pulsarflux:block/invar_block_from_invar_ingot",
+      "pulsarflux:block/invar_ingot_from_invar_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

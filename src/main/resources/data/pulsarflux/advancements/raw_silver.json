@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "has_raw_silver": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:raw_silver"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:block/raw_silver_block_from_raw_silver",
+      "pulsarflux:block/raw_silver_from_raw_silver_block",
+      "pulsarflux:blasting/silver_ingot_from_blasting_silver_ore",
+      "pulsarflux:blasting/silver_ingot_from_blasting_raw_silver",
+      "pulsarflux:smelting/silver_ingot_from_smelting_silver_ore",
+      "pulsarflux:smelting/silver_ingot_from_smelting_raw_silver"
+    ]
+  },
+  "sends_telemetry_event": false
+}

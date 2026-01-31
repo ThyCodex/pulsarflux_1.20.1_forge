@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "has_silver_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:silver_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:apple/silver_apple",
+      "pulsarflux:sword/silver_sword",
+      "pulsarflux:block/silver_block_from_silver_ingot",
+      "pulsarflux:block/silver_ingot_from_silver_block",
+      "pulsarflux:crafting_table/lonsdaleite_from_lonsdaleite_and_silver"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "has_constantan_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:constantan_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:apple/constantan_apple",
+      "pulsarflux:sword/constantan_sword",
+      "pulsarflux:block/constantan_block_from_constantan_ingot",
+      "pulsarflux:block/constantan_ingot_from_constantan_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

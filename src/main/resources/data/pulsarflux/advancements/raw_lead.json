@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "has_raw_lead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:raw_lead"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:block/raw_lead_block_from_raw_lead",
+      "pulsarflux:block/raw_lead_from_raw_lead_block",
+      "pulsarflux:blasting/lead_ingot_from_blasting_lead_ore",
+      "pulsarflux:blasting/lead_ingot_from_blasting_raw_lead",
+      "pulsarflux:smelting/lead_ingot_from_smelting_lead_ore",
+      "pulsarflux:smelting/lead_ingot_from_smelting_raw_lead"
+    ]
+  },
+  "sends_telemetry_event": false
+}

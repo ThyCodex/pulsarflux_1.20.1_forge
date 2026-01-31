@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "has_raw_platinum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:raw_platinum"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:block/raw_platinum_block_from_raw_platinum",
+      "pulsarflux:block/raw_platinum_from_raw_platinum_block",
+      "pulsarflux:blasting/platinum_ingot_from_blasting_platinum_ore",
+      "pulsarflux:blasting/platinum_ingot_from_blasting_raw_platinum",
+      "pulsarflux:smelting/platinum_ingot_from_smelting_platinum_ore",
+      "pulsarflux:smelting/platinum_ingot_from_smelting_raw_platinum"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "has_electrum_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:electrum_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:apple/electrum_apple",
+      "pulsarflux:sword/electrum_sword",
+      "pulsarflux:block/electrum_block_from_electrum_ingot",
+      "pulsarflux:block/electrum_ingot_from_electrum_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

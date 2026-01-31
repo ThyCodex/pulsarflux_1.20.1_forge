@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "has_aluminum_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:aluminum_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:apple/aluminum_apple",
+      "pulsarflux:sword/aluminum_sword",
+      "pulsarflux:block/aluminum_block_from_aluminum_ingot",
+      "pulsarflux:block/aluminum_ingot_from_aluminum_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

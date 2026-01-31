@@ -48,4 +48,7 @@ public class ToolFlux {
             () -> new PickaxeItem(TierFlux.STEEL, 4, -2.8f, new Item.Properties()));
     public static final RegistryObject<ShovelItem> STEEL_SHOVEL = ITEMS.register("steel_shovel",
             () -> new ShovelItem(TierFlux.STEEL, 4, -3.0f, new Item.Properties()));
+
+    public static final RegistryObject<Item> FLUX_STABILIZER = ITEMS.register("flux_stabilizer",
+            () -> new Item(new Item.Properties().stacksTo(1)));
 }

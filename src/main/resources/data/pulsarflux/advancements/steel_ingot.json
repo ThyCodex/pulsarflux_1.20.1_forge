@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "has_steel_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:steel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:apple/steel_apple",
+      "pulsarflux:sword/steel_sword",
+      "pulsarflux:tool/steel_axe",
+      "pulsarflux:tool/steel_hoe",
+      "pulsarflux:tool/steel_pickaxe",
+      "pulsarflux:tool/steel_shovel",
+      "pulsarflux:block/steel_block_from_steel_ingot",
+      "pulsarflux:block/steel_ingot_from_steel_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

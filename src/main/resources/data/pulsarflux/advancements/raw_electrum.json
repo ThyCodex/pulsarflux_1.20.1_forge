@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "has_raw_electrum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:raw_electrum"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:block/raw_electrum_block_from_raw_electrum",
+      "pulsarflux:block/raw_electrum_from_raw_electrum_block",
+      "pulsarflux:blasting/electrum_ingot_from_blasting_electrum_ore",
+      "pulsarflux:blasting/electrum_ingot_from_blasting_raw_electrum",
+      "pulsarflux:smelting/electrum_ingot_from_smelting_electrum_ore",
+      "pulsarflux:smelting/electrum_ingot_from_smelting_raw_electrum"
+    ]
+  },
+  "sends_telemetry_event": false
+}

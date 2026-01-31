@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "has_bronze_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:bronze_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:apple/bronze_apple",
+      "pulsarflux:sword/bronze_sword",
+      "pulsarflux:tool/bronze_axe",
+      "pulsarflux:tool/bronze_hoe",
+      "pulsarflux:tool/bronze_pickaxe",
+      "pulsarflux:tool/bronze_shovel",
+      "pulsarflux:block/bronze_block_from_bronze_ingot",
+      "pulsarflux:block/bronze_ingot_from_bronze_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "has_raw_nickel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:raw_nickel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:block/raw_nickel_block_from_raw_nickel",
+      "pulsarflux:block/raw_nickel_from_raw_nickel_block",
+      "pulsarflux:blasting/nickel_ingot_from_blasting_nickel_ore",
+      "pulsarflux:blasting/nickel_ingot_from_blasting_raw_nickel",
+      "pulsarflux:smelting/nickel_ingot_from_smelting_nickel_ore",
+      "pulsarflux:smelting/nickel_ingot_from_smelting_raw_nickel"
+    ]
+  },
+  "sends_telemetry_event": false
+}
