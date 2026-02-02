@@ -1,0 +1,12 @@
+{
+  "size": 1,
+  "priority": 50,
+  "types": [
+    "augment"
+  ],
+  "display": {
+    "layer": "item",
+    "sprite": "pulsarflux:gui/curios/augment"
+  },
+  "hide_when_empty": false
+}

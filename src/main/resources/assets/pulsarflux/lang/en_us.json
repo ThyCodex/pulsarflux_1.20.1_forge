@@ -62,6 +62,9 @@
   "item.pulsarflux.steel_shovel": "Steel Shovel",
 
   "item.pulsarflux.aglet_augment": "Aglet",
+  "item.pulsarflux.empty_augment_slot": "Empty Augment Slot",
+  "curios.identifier.augment": "Augment",
+
 
   "item.pulsarflux.raw_aluminum": "Raw Aluminum",
   "item.pulsarflux.raw_electrum": "Raw Electrum",
