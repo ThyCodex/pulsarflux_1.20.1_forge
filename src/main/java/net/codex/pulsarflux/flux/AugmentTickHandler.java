@@ -17,8 +17,15 @@ public class AugmentTickHandler {
 
         if (player.level().isClientSide()) return;
 
-        //applyAugmentEffect(player, player.getMainHandItem());
+        // Always allow offhand usage
         applyAugmentEffect(player, player.getOffhandItem());
+
+        // Optional Curios support
+        if (isCuriosLoaded()) {
+            for (ItemStack stack : getCurios(player)) {
+                applyAugmentEffect(player, stack);
+            }
+        }
     }
 
     private static void applyAugmentEffect(Player player, ItemStack stack) {
@@ -34,6 +41,36 @@ public class AugmentTickHandler {
                         augment.shouldShowParticles() // particle visibility
                 ));
             }
+        }
+    }
+    private static boolean isCuriosLoaded() {
+        try {
+            Class.forName("top.theillusivec4.curios.api.CuriosApi");
+            return true;
+        } catch (ClassNotFoundException e) {
+            return false;
+        }
+    }
+    @SuppressWarnings("unchecked")
+    private static Iterable<ItemStack> getCurios(Player player) {
+        try {
+            Class<?> curiosApi = Class.forName("top.theillusivec4.curios.api.CuriosApi");
+            Object handler = curiosApi
+                    .getMethod("getCuriosInventory", Player.class)
+                    .invoke(null, player);
+
+            if (handler == null) return java.util.Collections.emptyList();
+
+            Object curios = handler.getClass()
+                    .getMethod("getEquippedCurios")
+                    .invoke(handler);
+
+            return (Iterable<ItemStack>) curios.getClass()
+                    .getMethod("getStacks")
+                    .invoke(curios);
+
+        } catch (Exception e) {
+            return java.util.Collections.emptyList();
         }
     }
 }

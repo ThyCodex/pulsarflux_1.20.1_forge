@@ -21,7 +21,7 @@ public class Augment {
             () -> new AugmentHandler(
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 20, 0, false, false),
                     false, // show particles
-                    new Item.Properties()
+                    new Item.Properties().stacksTo(1)
             )
     );
 }
