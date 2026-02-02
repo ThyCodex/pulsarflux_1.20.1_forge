@@ -21,8 +21,7 @@ public class PulsarFlux {
         MaterialFlux.register(bus);
         SwordFlux.register(bus);
         ToolFlux.register(bus);
-        BlockFlux.BLOCKS.register(bus);
-        BlockFluxItems.register(bus);
+        BlockFlux.register(bus);
         CreativeTabFlux.TABS.register(bus);
         Augment.register(bus);
 

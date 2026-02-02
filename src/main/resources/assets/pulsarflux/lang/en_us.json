@@ -12,10 +12,11 @@
   "tooltip.pulsarflux.purple_phaseblade": "Teleports enemies randomly.",
   "tooltip.pulsarflux.white_phaseblade": "Briefly stuns foes.",
   "tooltip.pulsarflux.yellow_phaseblade": "Shocks enemies with lightning.",
+  "tooltip.pulsarflux.AGLET_AUGMENT": "Minor Speed Boost",
 
 
 
-"item.pulsarflux.aluminum_apple": "Aluminum Apple",
+  "item.pulsarflux.aluminum_apple": "Aluminum Apple",
   "item.pulsarflux.bronze_apple": "Bronze Apple",
   "item.pulsarflux.constantan_apple": "Constantan Apple",
   "item.pulsarflux.electrum_apple": "Electrum Apple",
@@ -59,6 +60,8 @@
   "item.pulsarflux.steel_hoe": "Steel Hoe",
   "item.pulsarflux.steel_pickaxe": "Steel Pickaxe",
   "item.pulsarflux.steel_shovel": "Steel Shovel",
+
+  "item.pulsarflux.aglet_augment": "Aglet",
 
   "item.pulsarflux.raw_aluminum": "Raw Aluminum",
   "item.pulsarflux.raw_electrum": "Raw Electrum",

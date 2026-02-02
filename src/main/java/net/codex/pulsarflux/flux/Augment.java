@@ -16,10 +16,12 @@ public class Augment {
         ITEMS.register(bus);
     }
 
-    // Create aglet augment
+    // Example aglet augment
     public static final RegistryObject<Item> AGLET_AUGMENT = ITEMS.register("aglet_augment",
             () -> new AugmentHandler(
                     new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 20, 0, false, false),
+                    false, // show particles
                     new Item.Properties()
-            ));
+            )
+    );
 }

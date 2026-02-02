@@ -1,81 +1,80 @@
 package net.codex.pulsarflux.flux;
 
 import net.codex.pulsarflux.PulsarFlux;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class BlockFlux {
+
+    // ----- BLOCK REGISTRIES -----
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, PulsarFlux.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, PulsarFlux.MOD_ID);
 
-    //-----Ore
+    public static void register(IEventBus bus) {
+        BLOCKS.register(bus);
+        ITEMS.register(bus);
+    }
 
-    public static final RegistryObject<Block> ALUMINUM_ORE = BLOCKS.register("aluminum_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> ELECTRUM_ORE = BLOCKS.register("electrum_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> LEAD_ORE = BLOCKS.register("lead_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> LONSDALEITE_ORE = BLOCKS.register("lonsdaleite_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> NICKEL_ORE = BLOCKS.register("nickel_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> PLATINUM_ORE = BLOCKS.register("platinum_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> SILVER_ORE = BLOCKS.register("silver_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> TIN_ORE = BLOCKS.register("tin_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE).strength(3f).requiresCorrectToolForDrops()));
+    // ----- ORES -----
+    public static final RegistryObject<Block> ALUMINUM_ORE = registerBlock("aluminum_ore", Blocks.COPPER_ORE, 3f);
+    public static final RegistryObject<Block> ELECTRUM_ORE = registerBlock("electrum_ore", Blocks.COPPER_ORE, 3f);
+    public static final RegistryObject<Block> LEAD_ORE = registerBlock("lead_ore", Blocks.COPPER_ORE, 3f);
+    public static final RegistryObject<Block> LONSDALEITE_ORE = registerBlock("lonsdaleite_ore", Blocks.COPPER_ORE, 3f);
+    public static final RegistryObject<Block> NICKEL_ORE = registerBlock("nickel_ore", Blocks.COPPER_ORE, 3f);
+    public static final RegistryObject<Block> PLATINUM_ORE = registerBlock("platinum_ore", Blocks.COPPER_ORE, 3f);
+    public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore", Blocks.COPPER_ORE, 3f);
+    public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore", Blocks.COPPER_ORE, 3f);
 
-    //-----Raw Block
+    // ----- RAW BLOCKS -----
+    public static final RegistryObject<Block> RAW_ALUMINUM_BLOCK = registerBlock("raw_aluminum_block", Blocks.RAW_IRON_BLOCK);
+    public static final RegistryObject<Block> RAW_ELECTRUM_BLOCK = registerBlock("raw_electrum_block", Blocks.RAW_IRON_BLOCK);
+    public static final RegistryObject<Block> RAW_LEAD_BLOCK = registerBlock("raw_lead_block", Blocks.RAW_IRON_BLOCK);
+    public static final RegistryObject<Block> RAW_LONSDALEITE_BLOCK = registerBlock("raw_lonsdaleite_block", Blocks.RAW_IRON_BLOCK);
+    public static final RegistryObject<Block> RAW_NICKEL_BLOCK = registerBlock("raw_nickel_block", Blocks.RAW_IRON_BLOCK);
+    public static final RegistryObject<Block> RAW_PLATINUM_BLOCK = registerBlock("raw_platinum_block", Blocks.RAW_IRON_BLOCK);
+    public static final RegistryObject<Block> RAW_SILVER_BLOCK = registerBlock("raw_silver_block", Blocks.RAW_IRON_BLOCK);
+    public static final RegistryObject<Block> RAW_TIN_BLOCK = registerBlock("raw_tin_block", Blocks.RAW_IRON_BLOCK);
 
-    public static final RegistryObject<Block> RAW_ALUMINUM_BLOCK = BLOCKS.register("raw_aluminum_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
-    public static final RegistryObject<Block> RAW_ELECTRUM_BLOCK = BLOCKS.register("raw_electrum_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
-    public static final RegistryObject<Block> RAW_LEAD_BLOCK = BLOCKS.register("raw_lead_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
-    public static final RegistryObject<Block> RAW_LONSDALEITE_BLOCK = BLOCKS.register("raw_lonsdaleite_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
-    public static final RegistryObject<Block> RAW_NICKEL_BLOCK = BLOCKS.register("raw_nickel_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
-    public static final RegistryObject<Block> RAW_PLATINUM_BLOCK = BLOCKS.register("raw_platinum_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
-    public static final RegistryObject<Block> RAW_SILVER_BLOCK = BLOCKS.register("raw_silver_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
-    public static final RegistryObject<Block> RAW_TIN_BLOCK = BLOCKS.register("raw_tin_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK)));
+    // ----- INGOT BLOCKS -----
+    public static final RegistryObject<Block> ALUMINUM_BLOCK = registerBlock("aluminum_block", Blocks.COPPER_BLOCK);
+    public static final RegistryObject<Block> BRONZE_BLOCK = registerBlock("bronze_block", Blocks.COPPER_BLOCK);
+    public static final RegistryObject<Block> CONSTANTAN_BLOCK = registerBlock("constantan_block", Blocks.COPPER_BLOCK);
+    public static final RegistryObject<Block> ELECTRUM_BLOCK = registerBlock("electrum_block", Blocks.COPPER_BLOCK);
+    public static final RegistryObject<Block> INVAR_BLOCK = registerBlock("invar_block", Blocks.COPPER_BLOCK);
+    public static final RegistryObject<Block> LEAD_BLOCK = registerBlock("lead_block", Blocks.COPPER_BLOCK);
+    public static final RegistryObject<Block> LONSDALEITE_BLOCK = registerBlock("lonsdaleite_block", Blocks.COPPER_BLOCK);
+    public static final RegistryObject<Block> NICKEL_BLOCK = registerBlock("nickel_block", Blocks.COPPER_BLOCK);
+    public static final RegistryObject<Block> PLATINUM_BLOCK = registerBlock("platinum_block", Blocks.COPPER_BLOCK);
+    public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block", Blocks.COPPER_BLOCK);
+    public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block", Blocks.COPPER_BLOCK);
+    public static final RegistryObject<Block> TIN_BLOCK = registerBlock("tin_block", Blocks.COPPER_BLOCK);
 
-    //-----Ingot Block
+    // ----- HELPER METHODS -----
+    private static RegistryObject<Block> registerBlock(String name, Block template) {
+        return registerBlock(name, template, -1f); // default strength uses template
+    }
 
-    public static final RegistryObject<Block> ALUMINUM_BLOCK = BLOCKS.register("aluminum_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-    public static final RegistryObject<Block> BRONZE_BLOCK = BLOCKS.register("bronze_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-    public static final RegistryObject<Block> CONSTANTAN_BLOCK = BLOCKS.register("constantan_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-    public static final RegistryObject<Block> ELECTRUM_BLOCK = BLOCKS.register("electrum_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-    public static final RegistryObject<Block> INVAR_BLOCK = BLOCKS.register("invar_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-    public static final RegistryObject<Block> LEAD_BLOCK = BLOCKS.register("lead_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-    public static final RegistryObject<Block> LONSDALEITE_BLOCK = BLOCKS.register("lonsdaleite_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-    public static final RegistryObject<Block> NICKEL_BLOCK = BLOCKS.register("nickel_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-    public static final RegistryObject<Block> PLATINUM_BLOCK = BLOCKS.register("platinum_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-    public static final RegistryObject<Block> SILVER_BLOCK = BLOCKS.register("silver_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-    public static final RegistryObject<Block> STEEL_BLOCK = BLOCKS.register("steel_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
-    public static final RegistryObject<Block> TIN_BLOCK = BLOCKS.register("tin_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COPPER_BLOCK)));
+    private static RegistryObject<Block> registerBlock(String name, Block template, float strength) {
+        RegistryObject<Block> block = BLOCKS.register(name,
+                () -> {
+                    if (strength > 0) {
+                        return new Block(BlockBehaviour.Properties.copy(template).strength(strength).requiresCorrectToolForDrops());
+                    } else {
+                        return new Block(BlockBehaviour.Properties.copy(template));
+                    }
+                });
 
+        // Register the BlockItem
+        ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().rarity(Rarity.UNCOMMON)));
 
-
+        return block;
+    }
 }

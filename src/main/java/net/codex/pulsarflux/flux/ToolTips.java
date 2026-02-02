@@ -11,9 +11,9 @@ import net.minecraft.world.level.Level;
 import javax.annotation.Nullable;
 import java.util.List;
 
-public class FluxToolTips extends SwordItem {
+public class ToolTips extends SwordItem {
 
-    public FluxToolTips(Tier tier, int damage, float speed, Properties properties) {
+    public ToolTips(Tier tier, int damage, float speed, Properties properties) {
         super(tier, damage, speed, properties);
     }
 
@@ -60,7 +60,7 @@ public class FluxToolTips extends SwordItem {
         }
         // ---- Augments ----
         if (stack.getItem() == Augment.AGLET_AUGMENT.get()) {
-            tooltip.add(Component.translatable("tooltip.pulsarflux.yellow_phaseblade")
+            tooltip.add(Component.translatable("tooltip.pulsarflux.AGLET_AUGMENT")
                     .withStyle(ChatFormatting.WHITE));
 
             super.appendHoverText(stack, level, tooltip, flag);

@@ -98,38 +98,38 @@ public class CreativeTabFlux {
                         output.accept(Augment.AGLET_AUGMENT.get());
 
                         //-----Ingot Blocks
-                        output.accept(BlockFluxItems.ALUMINUM_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.BRONZE_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.CONSTANTAN_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.ELECTRUM_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.INVAR_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.LEAD_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.LONSDALEITE_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.NICKEL_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.PLATINUM_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.SILVER_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.STEEL_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.TIN_BLOCK_ITEM.get());
+                        output.accept(BlockFlux.ALUMINUM_BLOCK.get());
+                        output.accept(BlockFlux.BRONZE_BLOCK.get());
+                        output.accept(BlockFlux.CONSTANTAN_BLOCK.get());
+                        output.accept(BlockFlux.ELECTRUM_BLOCK.get());
+                        output.accept(BlockFlux.INVAR_BLOCK.get());
+                        output.accept(BlockFlux.LEAD_BLOCK.get());
+                        output.accept(BlockFlux.LONSDALEITE_BLOCK.get());
+                        output.accept(BlockFlux.NICKEL_BLOCK.get());
+                        output.accept(BlockFlux.PLATINUM_BLOCK.get());
+                        output.accept(BlockFlux.SILVER_BLOCK.get());
+                        output.accept(BlockFlux.STEEL_BLOCK.get());
+                        output.accept(BlockFlux.TIN_BLOCK.get());
 
                         //-----Ore Blocks
-                        output.accept(BlockFluxItems.ALUMINUM_ORE_ITEM.get());
-                        output.accept(BlockFluxItems.ELECTRUM_ORE_ITEM.get());
-                        output.accept(BlockFluxItems.LEAD_ORE_ITEM.get());
-                        output.accept(BlockFluxItems.LONSDALEITE_ORE_ITEM.get());
-                        output.accept(BlockFluxItems.NICKEL_ORE_ITEM.get());
-                        output.accept(BlockFluxItems.PLATINUM_ORE_ITEM.get());
-                        output.accept(BlockFluxItems.SILVER_ORE_ITEM.get());
-                        output.accept(BlockFluxItems.TIN_ORE_ITEM.get());
+                        output.accept(BlockFlux.ALUMINUM_ORE.get());
+                        output.accept(BlockFlux.ELECTRUM_ORE.get());
+                        output.accept(BlockFlux.LEAD_ORE.get());
+                        output.accept(BlockFlux.LONSDALEITE_ORE.get());
+                        output.accept(BlockFlux.NICKEL_ORE.get());
+                        output.accept(BlockFlux.PLATINUM_ORE.get());
+                        output.accept(BlockFlux.SILVER_ORE.get());
+                        output.accept(BlockFlux.TIN_ORE.get());
 
                         //-----Raw Blocks
-                        output.accept(BlockFluxItems.RAW_ALUMINUM_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.RAW_ELECTRUM_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.RAW_LEAD_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.RAW_LONSDALEITE_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.RAW_NICKEL_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.RAW_PLATINUM_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.RAW_SILVER_BLOCK_ITEM.get());
-                        output.accept(BlockFluxItems.RAW_TIN_BLOCK_ITEM.get());
+                        output.accept(BlockFlux.RAW_ALUMINUM_BLOCK.get());
+                        output.accept(BlockFlux.RAW_ALUMINUM_BLOCK.get());
+                        output.accept(BlockFlux.RAW_LEAD_BLOCK.get());
+                        output.accept(BlockFlux.RAW_LONSDALEITE_BLOCK.get());
+                        output.accept(BlockFlux.RAW_NICKEL_BLOCK.get());
+                        output.accept(BlockFlux.RAW_PLATINUM_BLOCK.get());
+                        output.accept(BlockFlux.RAW_SILVER_BLOCK.get());
+                        output.accept(BlockFlux.RAW_TIN_BLOCK.get());
 
 
                     })
