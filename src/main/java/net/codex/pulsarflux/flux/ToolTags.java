@@ -22,5 +22,7 @@ public class ToolTags {
             new ResourceLocation("pulsarflux", "platinum_tools")
     );
 
-    // Add more tool tags later
+    public static final TagKey<Item> PHASEBLADE = ItemTags.create(
+            new ResourceLocation("pulsarflux", "phaseblade")
+    );
 }

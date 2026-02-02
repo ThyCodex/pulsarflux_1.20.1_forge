@@ -1,7 +1,21 @@
 {
   "itemGroup.pulsarflux": "Pulsarflux",
 
-  "item.pulsarflux.aluminum_apple": "Aluminum Apple",
+
+  "tooltip.pulsarflux.lead_sword": "Slows you while held",
+  "tooltip.pulsarflux.silver_sword": "Applies Weakness on hit",
+  "tooltip.pulsarflux.platinum_sword": "15% Chance to Leech Life",
+  "tooltip.pulsarflux.bronze_sword": "Awesome",
+  "tooltip.pulsarflux.blue_phaseblade": "Chills foes to the bone!",
+  "tooltip.pulsarflux.green_phaseblade": "Sometimes drops emeralds and makes enemies glow.",
+  "tooltip.pulsarflux.red_phaseblade": "Sets enemies ablaze!",
+  "tooltip.pulsarflux.purple_phaseblade": "Teleports enemies randomly.",
+  "tooltip.pulsarflux.white_phaseblade": "Briefly stuns foes.",
+  "tooltip.pulsarflux.yellow_phaseblade": "Shocks enemies with lightning.",
+
+
+
+"item.pulsarflux.aluminum_apple": "Aluminum Apple",
   "item.pulsarflux.bronze_apple": "Bronze Apple",
   "item.pulsarflux.constantan_apple": "Constantan Apple",
   "item.pulsarflux.electrum_apple": "Electrum Apple",
@@ -26,6 +40,12 @@
   "item.pulsarflux.silver_sword": "Silver Sword",
   "item.pulsarflux.steel_sword": "Steel Sword",
   "item.pulsarflux.tin_sword": "Tin Sword",
+  "item.pulsarflux.blue_phaseblade": "Blue Phaseblade",
+  "item.pulsarflux.green_phaseblade": "Green Phaseblade",
+  "item.pulsarflux.purple_phaseblade": "Purple Phaseblade",
+  "item.pulsarflux.red_phaseblade": "Red Phaseblade",
+  "item.pulsarflux.white_phaseblade": "White Phaseblade",
+  "item.pulsarflux.yellow_phaseblade": "Yellow Phaseblade",
 
   "item.pulsarflux.bronze_axe": "Bronze Axe",
   "item.pulsarflux.bronze_hoe": "Bronze Hoe",

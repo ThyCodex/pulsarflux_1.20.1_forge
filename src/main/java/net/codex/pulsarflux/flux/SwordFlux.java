@@ -16,7 +16,7 @@ public class SwordFlux {
         ITEMS.register(bus);
     }
 
-    //-----Swords
+    //-----sword
     public static final RegistryObject<SwordItem> ALUMINUM_SWORD = ITEMS.register("aluminum_sword",
             () -> new SwordItem(TierFlux.ALUMINUM, 5, -2.2f, new Item.Properties()));
     public static final RegistryObject<SwordItem> BRONZE_SWORD = ITEMS.register("bronze_sword",
@@ -28,19 +28,31 @@ public class SwordFlux {
     public static final RegistryObject<SwordItem> INVAR_SWORD = ITEMS.register("invar_sword",
             () -> new SwordItem(TierFlux.INVAR, 6, -2.4f, new Item.Properties()));
     public static final RegistryObject<SwordItem> LEAD_SWORD = ITEMS.register("lead_sword",
-            () -> new FluxSwordItem(TierFlux.LEAD, 6, -2.9f, new Item.Properties()));
+            () -> new FluxToolTips(TierFlux.LEAD, 6, -2.9f, new Item.Properties()));
     public static final RegistryObject<SwordItem> NICKEL_SWORD = ITEMS.register("nickel_sword",
             () -> new SwordItem(TierFlux.NICKEL, 5, -2.4f, new Item.Properties()));
     public static final RegistryObject<SwordItem> PLATINUM_SWORD = ITEMS.register("platinum_sword",
-            () -> new FluxSwordItem(TierFlux.PLATINUM, 7, -2.4f, new Item.Properties()));
+            () -> new FluxToolTips(TierFlux.PLATINUM, 7, -2.4f, new Item.Properties()));
     public static final RegistryObject<SwordItem> SILVER_SWORD = ITEMS.register("silver_sword",
-            () -> new FluxSwordItem(TierFlux.SILVER, 4, -2.2f, new Item.Properties()));
+            () -> new FluxToolTips(TierFlux.SILVER, 4, -2.2f, new Item.Properties()));
     public static final RegistryObject<SwordItem> STEEL_SWORD = ITEMS.register("steel_sword",
             () -> new SwordItem(TierFlux.STEEL, 6, -2.4f, new Item.Properties()));
     public static final RegistryObject<SwordItem> TIN_SWORD = ITEMS.register("tin_sword",
             () -> new SwordItem(TierFlux.TIN, 4, -2.4f, new Item.Properties()));
 
-
+    //-----phaseblade
+    public static final RegistryObject<SwordItem> BLUE_PHASEBLADE = ITEMS.register("blue_phaseblade",
+            () -> new FluxToolTips(TierFlux.PHASEBLADE, 7, -2.4f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> GREEN_PHASEBLADE = ITEMS.register("green_phaseblade",
+            () -> new FluxToolTips(TierFlux.PHASEBLADE, 7, -2.4f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> PURPLE_PHASEBLADE = ITEMS.register("purple_phaseblade",
+            () -> new FluxToolTips(TierFlux.PHASEBLADE, 7, -2.4f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> RED_PHASEBLADE = ITEMS.register("red_phaseblade",
+            () -> new FluxToolTips(TierFlux.PHASEBLADE, 7, -2.4f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> WHITE_PHASEBLADE = ITEMS.register("white_phaseblade",
+            () -> new FluxToolTips(TierFlux.PHASEBLADE, 7, -2.4f, new Item.Properties()));
+    public static final RegistryObject<SwordItem> YELLOW_PHASEBLADE = ITEMS.register("yellow_phaseblade",
+            () -> new FluxToolTips(TierFlux.PHASEBLADE, 7, -2.4f, new Item.Properties()));
 
 }
 

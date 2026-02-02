@@ -39,4 +39,7 @@ public class TierFlux {
     public static final ForgeTier PLATINUM = new ForgeTier(3, 720, 8.5f, 0.4f, 18,
             BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(MaterialFlux.PLATINUM_INGOT.get()));
 
+    public static final ForgeTier PHASEBLADE = new ForgeTier(4, 2000, 8.5f, 0.5f, 18,
+            BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(MaterialFlux.PLATINUM_INGOT.get()));
+
 }

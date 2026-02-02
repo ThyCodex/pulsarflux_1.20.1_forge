@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "pulsarflux:blue_phaseblade",
+    "pulsarflux:green_phaseblade",
+    "pulsarflux:purple_phaseblade",
+    "pulsarflux:red_phaseblade",
+    "pulsarflux:white_phaseblade",
+    "pulsarflux:yellow_phaseblade"
+  ]
+}

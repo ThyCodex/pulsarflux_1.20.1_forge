@@ -61,7 +61,7 @@ public class CreativeTabFlux {
                         output.accept(MaterialFlux.STEEL_INGOT.get());
                         output.accept(MaterialFlux.TIN_INGOT.get());
 
-                        //-----Swords
+                        //-----Weapons
                         output.accept(SwordFlux.ALUMINUM_SWORD.get());
                         output.accept(SwordFlux.BRONZE_SWORD.get());
                         output.accept(SwordFlux.CONSTANTAN_SWORD.get());
@@ -73,6 +73,12 @@ public class CreativeTabFlux {
                         output.accept(SwordFlux.SILVER_SWORD.get());
                         output.accept(SwordFlux.STEEL_SWORD.get());
                         output.accept(SwordFlux.TIN_SWORD.get());
+                        output.accept(SwordFlux.BLUE_PHASEBLADE.get());
+                        output.accept(SwordFlux.GREEN_PHASEBLADE.get());
+                        output.accept(SwordFlux.PURPLE_PHASEBLADE.get());
+                        output.accept(SwordFlux.RED_PHASEBLADE.get());
+                        output.accept(SwordFlux.WHITE_PHASEBLADE.get());
+                        output.accept(SwordFlux.YELLOW_PHASEBLADE.get());
 
                         //-----Tools
                         output.accept(ToolFlux.BRONZE_AXE.get());

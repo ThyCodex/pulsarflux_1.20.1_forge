@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#",
+    "#",
+    "$"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:green_stained_glass"
+    },
+    "$": {
+      "item": "pulsarflux:lonsdaleite_ingot"
+    }
+  },
+  "result": {
+    "item": "pulsarflux:green_phaseblade",
+    "count": 1
+  }
+}

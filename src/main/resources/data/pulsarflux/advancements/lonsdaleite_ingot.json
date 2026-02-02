@@ -17,7 +17,13 @@
     "recipes": [
       "pulsarflux:apple/lonsdaleite_apple",
       "pulsarflux:block/lonsdaleite_block_from_lonsdaleite_ingot",
-      "pulsarflux:block/lonsdaleite_ingot_from_lonsdaleite_block"
+      "pulsarflux:block/lonsdaleite_ingot_from_lonsdaleite_block",
+      "pulsarflux:sword/blue_phaseblade",
+      "pulsarflux:sword/green_phaseblade",
+      "pulsarflux:sword/purple_phaseblade",
+      "pulsarflux:sword/red_phaseblade",
+      "pulsarflux:sword/white_phaseblade",
+      "pulsarflux:sword/yellow_phaseblade"
     ]
   },
   "sends_telemetry_event": false
