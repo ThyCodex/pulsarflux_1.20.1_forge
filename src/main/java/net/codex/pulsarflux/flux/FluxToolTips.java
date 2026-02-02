@@ -58,7 +58,12 @@ public class FluxToolTips extends SwordItem {
             tooltip.add(Component.translatable("tooltip.pulsarflux.yellow_phaseblade")
                     .withStyle(ChatFormatting.YELLOW));
         }
+        // ---- Augments ----
+        if (stack.getItem() == Augment.AGLET_AUGMENT.get()) {
+            tooltip.add(Component.translatable("tooltip.pulsarflux.yellow_phaseblade")
+                    .withStyle(ChatFormatting.WHITE));
 
-        super.appendHoverText(stack, level, tooltip, flag);
+            super.appendHoverText(stack, level, tooltip, flag);
+        }
     }
 }

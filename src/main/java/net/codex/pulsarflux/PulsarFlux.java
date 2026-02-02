@@ -24,6 +24,7 @@ public class PulsarFlux {
         BlockFlux.BLOCKS.register(bus);
         BlockFluxItems.register(bus);
         CreativeTabFlux.TABS.register(bus);
+        Augment.register(bus);
 
 
         // Register mob tier events

@@ -94,6 +94,9 @@ public class CreativeTabFlux {
                         output.accept(ToolFlux.STEEL_PICKAXE.get());
                         output.accept(ToolFlux.STEEL_SHOVEL.get());
 
+                        //-----Augments
+                        output.accept(Augment.AGLET_AUGMENT.get());
+
                         //-----Ingot Blocks
                         output.accept(BlockFluxItems.ALUMINUM_BLOCK_ITEM.get());
                         output.accept(BlockFluxItems.BRONZE_BLOCK_ITEM.get());
