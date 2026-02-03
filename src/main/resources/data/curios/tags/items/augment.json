@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "pulsarflux:aglet_augment"
   ]
