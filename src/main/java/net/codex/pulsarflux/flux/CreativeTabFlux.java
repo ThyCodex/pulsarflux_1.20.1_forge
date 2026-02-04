@@ -21,115 +21,118 @@ public class CreativeTabFlux {
     public static final RegistryObject<CreativeModeTab> PULSARFLUX = TABS.register("pulsarflux",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.pulsarflux"))
-                    .icon(FoodFlux.STEEL_APPLE.get()::getDefaultInstance) // steel apple as icon
+                    .icon(FoodItems.STEEL_APPLE.get()::getDefaultInstance) // steel apple as icon
                     .displayItems((displayParameters, output) -> {
 
                         //-----Food
-                        output.accept(FoodFlux.ALUMINUM_APPLE.get());
-                        output.accept(FoodFlux.BRONZE_APPLE.get());
-                        output.accept(FoodFlux.CONSTANTAN_APPLE.get());
-                        output.accept(FoodFlux.ELECTRUM_APPLE.get());
-                        output.accept(FoodFlux.INVAR_APPLE.get());
-                        output.accept(FoodFlux.LEAD_APPLE.get());
-                        output.accept(FoodFlux.LONSDALEITE_APPLE.get());
-                        output.accept(FoodFlux.NICKEL_APPLE.get());
-                        output.accept(FoodFlux.PLATINUM_APPLE.get());
-                        output.accept(FoodFlux.SILVER_APPLE.get());
-                        output.accept(FoodFlux.STEEL_APPLE.get());
-                        output.accept(FoodFlux.TIN_APPLE.get());
+                        output.accept(FoodItems.ALUMINUM_APPLE.get());
+                        output.accept(FoodItems.BRONZE_APPLE.get());
+                        output.accept(FoodItems.CONSTANTAN_APPLE.get());
+                        output.accept(FoodItems.ELECTRUM_APPLE.get());
+                        output.accept(FoodItems.INVAR_APPLE.get());
+                        output.accept(FoodItems.LEAD_APPLE.get());
+                        output.accept(FoodItems.LONSDALEITE_APPLE.get());
+                        output.accept(FoodItems.NICKEL_APPLE.get());
+                        output.accept(FoodItems.PLATINUM_APPLE.get());
+                        output.accept(FoodItems.SILVER_APPLE.get());
+                        output.accept(FoodItems.STEEL_APPLE.get());
+                        output.accept(FoodItems.TIN_APPLE.get());
 
                         //-----Materials / Ingots
-                        output.accept(MaterialFlux.RAW_ALUMINUM.get());
-                        output.accept(MaterialFlux.RAW_ELECTRUM.get());
-                        output.accept(MaterialFlux.RAW_LEAD.get());
-                        output.accept(MaterialFlux.RAW_LONSDALEITE.get());
-                        output.accept(MaterialFlux.RAW_NICKEL.get());
-                        output.accept(MaterialFlux.RAW_PLATINUM.get());
-                        output.accept(MaterialFlux.RAW_SILVER.get());
-                        output.accept(MaterialFlux.RAW_TIN.get());
+                        output.accept(MaterialItems.RAW_ALUMINUM.get());
+                        output.accept(MaterialItems.RAW_ELECTRUM.get());
+                        output.accept(MaterialItems.RAW_LEAD.get());
+                        output.accept(MaterialItems.RAW_LONSDALEITE.get());
+                        output.accept(MaterialItems.RAW_NICKEL.get());
+                        output.accept(MaterialItems.RAW_PLATINUM.get());
+                        output.accept(MaterialItems.RAW_SILVER.get());
+                        output.accept(MaterialItems.RAW_TIN.get());
 
-                        output.accept(MaterialFlux.ALUMINUM_INGOT.get());
-                        output.accept(MaterialFlux.BRONZE_INGOT.get());
-                        output.accept(MaterialFlux.CONSTANTAN_INGOT.get());
-                        output.accept(MaterialFlux.ELECTRUM_INGOT.get());
-                        output.accept(MaterialFlux.INVAR_INGOT.get());
-                        output.accept(MaterialFlux.LEAD_INGOT.get());
-                        output.accept(MaterialFlux.LONSDALEITE_INGOT.get());
-                        output.accept(MaterialFlux.NICKEL_INGOT.get());
-                        output.accept(MaterialFlux.PLATINUM_INGOT.get());
-                        output.accept(MaterialFlux.SILVER_INGOT.get());
-                        output.accept(MaterialFlux.STEEL_INGOT.get());
-                        output.accept(MaterialFlux.TIN_INGOT.get());
+                        output.accept(MaterialItems.ALUMINUM_INGOT.get());
+                        output.accept(MaterialItems.BRONZE_INGOT.get());
+                        output.accept(MaterialItems.CONSTANTAN_INGOT.get());
+                        output.accept(MaterialItems.ELECTRUM_INGOT.get());
+                        output.accept(MaterialItems.INVAR_INGOT.get());
+                        output.accept(MaterialItems.LEAD_INGOT.get());
+                        output.accept(MaterialItems.LONSDALEITE_INGOT.get());
+                        output.accept(MaterialItems.NICKEL_INGOT.get());
+                        output.accept(MaterialItems.PLATINUM_INGOT.get());
+                        output.accept(MaterialItems.SILVER_INGOT.get());
+                        output.accept(MaterialItems.STEEL_INGOT.get());
+                        output.accept(MaterialItems.TIN_INGOT.get());
 
                         //-----Weapons
-                        output.accept(SwordFlux.ALUMINUM_SWORD.get());
-                        output.accept(SwordFlux.BRONZE_SWORD.get());
-                        output.accept(SwordFlux.CONSTANTAN_SWORD.get());
-                        output.accept(SwordFlux.ELECTRUM_SWORD.get());
-                        output.accept(SwordFlux.INVAR_SWORD.get());
-                        output.accept(SwordFlux.LEAD_SWORD.get());
-                        output.accept(SwordFlux.NICKEL_SWORD.get());
-                        output.accept(SwordFlux.PLATINUM_SWORD.get());
-                        output.accept(SwordFlux.SILVER_SWORD.get());
-                        output.accept(SwordFlux.STEEL_SWORD.get());
-                        output.accept(SwordFlux.TIN_SWORD.get());
-                        output.accept(SwordFlux.BLUE_PHASEBLADE.get());
-                        output.accept(SwordFlux.GREEN_PHASEBLADE.get());
-                        output.accept(SwordFlux.PURPLE_PHASEBLADE.get());
-                        output.accept(SwordFlux.RED_PHASEBLADE.get());
-                        output.accept(SwordFlux.WHITE_PHASEBLADE.get());
-                        output.accept(SwordFlux.YELLOW_PHASEBLADE.get());
+                        output.accept(SwordItems.ALUMINUM_SWORD.get());
+                        output.accept(SwordItems.BRONZE_SWORD.get());
+                        output.accept(SwordItems.CONSTANTAN_SWORD.get());
+                        output.accept(SwordItems.ELECTRUM_SWORD.get());
+                        output.accept(SwordItems.INVAR_SWORD.get());
+                        output.accept(SwordItems.LEAD_SWORD.get());
+                        output.accept(SwordItems.NICKEL_SWORD.get());
+                        output.accept(SwordItems.PLATINUM_SWORD.get());
+                        output.accept(SwordItems.SILVER_SWORD.get());
+                        output.accept(SwordItems.STEEL_SWORD.get());
+                        output.accept(SwordItems.TIN_SWORD.get());
+                        output.accept(SwordItems.BLUE_PHASEBLADE.get());
+                        output.accept(SwordItems.GREEN_PHASEBLADE.get());
+                        output.accept(SwordItems.PURPLE_PHASEBLADE.get());
+                        output.accept(SwordItems.RED_PHASEBLADE.get());
+                        output.accept(SwordItems.WHITE_PHASEBLADE.get());
+                        output.accept(SwordItems.YELLOW_PHASEBLADE.get());
 
                         //-----Tools
-                        output.accept(ToolFlux.BRONZE_AXE.get());
-                        output.accept(ToolFlux.BRONZE_HOE.get());
-                        output.accept(ToolFlux.BRONZE_PICKAXE.get());
-                        output.accept(ToolFlux.BRONZE_SHOVEL.get());
-                        output.accept(ToolFlux.PLATINUM_AXE.get());
-                        output.accept(ToolFlux.PLATINUM_HOE.get());
-                        output.accept(ToolFlux.PLATINUM_PICKAXE.get());
-                        output.accept(ToolFlux.PLATINUM_SHOVEL.get());
-                        output.accept(ToolFlux.STEEL_AXE.get());
-                        output.accept(ToolFlux.STEEL_HOE.get());
-                        output.accept(ToolFlux.STEEL_PICKAXE.get());
-                        output.accept(ToolFlux.STEEL_SHOVEL.get());
+                        output.accept(ToolItems.BRONZE_AXE.get());
+                        output.accept(ToolItems.BRONZE_HOE.get());
+                        output.accept(ToolItems.BRONZE_PICKAXE.get());
+                        output.accept(ToolItems.BRONZE_SHOVEL.get());
+                        output.accept(ToolItems.PLATINUM_AXE.get());
+                        output.accept(ToolItems.PLATINUM_HOE.get());
+                        output.accept(ToolItems.PLATINUM_PICKAXE.get());
+                        output.accept(ToolItems.PLATINUM_SHOVEL.get());
+                        output.accept(ToolItems.STEEL_AXE.get());
+                        output.accept(ToolItems.STEEL_HOE.get());
+                        output.accept(ToolItems.STEEL_PICKAXE.get());
+                        output.accept(ToolItems.STEEL_SHOVEL.get());
 
-                        //-----Augments
-                        output.accept(Augment.AGLET_AUGMENT.get());
+                        //-----Trinkets
+                        output.accept(Trinket.AGLET_TRINKET.get());
+                        output.accept(Trinket.DIVING_GEAR_TRINKET.get());
+                        output.accept(Trinket.LUCKY_HORSESHOE_TRINKET.get());
+                        output.accept(Trinket.TREASURE_MAGNET_TRINKET.get());
 
                         //-----Ingot Blocks
-                        output.accept(BlockFlux.ALUMINUM_BLOCK.get());
-                        output.accept(BlockFlux.BRONZE_BLOCK.get());
-                        output.accept(BlockFlux.CONSTANTAN_BLOCK.get());
-                        output.accept(BlockFlux.ELECTRUM_BLOCK.get());
-                        output.accept(BlockFlux.INVAR_BLOCK.get());
-                        output.accept(BlockFlux.LEAD_BLOCK.get());
-                        output.accept(BlockFlux.LONSDALEITE_BLOCK.get());
-                        output.accept(BlockFlux.NICKEL_BLOCK.get());
-                        output.accept(BlockFlux.PLATINUM_BLOCK.get());
-                        output.accept(BlockFlux.SILVER_BLOCK.get());
-                        output.accept(BlockFlux.STEEL_BLOCK.get());
-                        output.accept(BlockFlux.TIN_BLOCK.get());
+                        output.accept(BlockItems.ALUMINUM_BLOCK.get());
+                        output.accept(BlockItems.BRONZE_BLOCK.get());
+                        output.accept(BlockItems.CONSTANTAN_BLOCK.get());
+                        output.accept(BlockItems.ELECTRUM_BLOCK.get());
+                        output.accept(BlockItems.INVAR_BLOCK.get());
+                        output.accept(BlockItems.LEAD_BLOCK.get());
+                        output.accept(BlockItems.LONSDALEITE_BLOCK.get());
+                        output.accept(BlockItems.NICKEL_BLOCK.get());
+                        output.accept(BlockItems.PLATINUM_BLOCK.get());
+                        output.accept(BlockItems.SILVER_BLOCK.get());
+                        output.accept(BlockItems.STEEL_BLOCK.get());
+                        output.accept(BlockItems.TIN_BLOCK.get());
 
                         //-----Ore Blocks
-                        output.accept(BlockFlux.ALUMINUM_ORE.get());
-                        output.accept(BlockFlux.ELECTRUM_ORE.get());
-                        output.accept(BlockFlux.LEAD_ORE.get());
-                        output.accept(BlockFlux.LONSDALEITE_ORE.get());
-                        output.accept(BlockFlux.NICKEL_ORE.get());
-                        output.accept(BlockFlux.PLATINUM_ORE.get());
-                        output.accept(BlockFlux.SILVER_ORE.get());
-                        output.accept(BlockFlux.TIN_ORE.get());
+                        output.accept(BlockItems.ALUMINUM_ORE.get());
+                        output.accept(BlockItems.ELECTRUM_ORE.get());
+                        output.accept(BlockItems.LEAD_ORE.get());
+                        output.accept(BlockItems.LONSDALEITE_ORE.get());
+                        output.accept(BlockItems.NICKEL_ORE.get());
+                        output.accept(BlockItems.PLATINUM_ORE.get());
+                        output.accept(BlockItems.SILVER_ORE.get());
+                        output.accept(BlockItems.TIN_ORE.get());
 
                         //-----Raw Blocks
-                        output.accept(BlockFlux.RAW_ALUMINUM_BLOCK.get());
-                        output.accept(BlockFlux.RAW_ALUMINUM_BLOCK.get());
-                        output.accept(BlockFlux.RAW_LEAD_BLOCK.get());
-                        output.accept(BlockFlux.RAW_LONSDALEITE_BLOCK.get());
-                        output.accept(BlockFlux.RAW_NICKEL_BLOCK.get());
-                        output.accept(BlockFlux.RAW_PLATINUM_BLOCK.get());
-                        output.accept(BlockFlux.RAW_SILVER_BLOCK.get());
-                        output.accept(BlockFlux.RAW_TIN_BLOCK.get());
+                        output.accept(BlockItems.RAW_ALUMINUM_BLOCK.get());
+                        output.accept(BlockItems.RAW_ALUMINUM_BLOCK.get());
+                        output.accept(BlockItems.RAW_LEAD_BLOCK.get());
+                        output.accept(BlockItems.RAW_LONSDALEITE_BLOCK.get());
+                        output.accept(BlockItems.RAW_NICKEL_BLOCK.get());
+                        output.accept(BlockItems.RAW_PLATINUM_BLOCK.get());
+                        output.accept(BlockItems.RAW_SILVER_BLOCK.get());
+                        output.accept(BlockItems.RAW_TIN_BLOCK.get());
 
 
                     })
@@ -140,7 +143,7 @@ public class CreativeTabFlux {
     public static void buildContents(BuildCreativeModeTabContentsEvent event) {
         // Optional: Add steel apple to vanilla food tab
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-            event.accept(FoodFlux.STEEL_APPLE);
+            event.accept(FoodItems.STEEL_APPLE);
         }
     }
 }

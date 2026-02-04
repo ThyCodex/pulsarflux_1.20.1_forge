@@ -12,9 +12,6 @@
   "tooltip.pulsarflux.purple_phaseblade": "Teleports enemies randomly.",
   "tooltip.pulsarflux.white_phaseblade": "Briefly stuns foes.",
   "tooltip.pulsarflux.yellow_phaseblade": "Shocks enemies with lightning.",
-  "tooltip.pulsarflux.AGLET_AUGMENT": "Minor Speed Boost",
-
-
 
   "item.pulsarflux.aluminum_apple": "Aluminum Apple",
   "item.pulsarflux.bronze_apple": "Bronze Apple",
@@ -61,9 +58,11 @@
   "item.pulsarflux.steel_pickaxe": "Steel Pickaxe",
   "item.pulsarflux.steel_shovel": "Steel Shovel",
 
-  "item.pulsarflux.aglet_augment": "Aglet",
-  "item.pulsarflux.empty_augment_slot": "Empty Augment Slot",
-  "curios.identifier.augment": "Augment",
+  "curios.identifier.augment": "Charm",
+  "item.pulsarflux.aglet_trinket": "Aglet",
+  "item.pulsarflux.diving_gear_trinket": "Diving Gear",
+  "item.pulsarflux.lucky_horseshoe_trinket": "Lucky Horseshoe",
+  "item.pulsarflux.treasure_magnet_trinket": "Treasure Magnet",
 
 
   "item.pulsarflux.raw_aluminum": "Raw Aluminum",

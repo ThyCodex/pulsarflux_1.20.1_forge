@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pulsarflux:aglet_trinket",
+    "pulsarflux:diving_gear_trinket",
+    "pulsarflux:treasure_magnet_trinket",
+    "pulsarflux:lucky_horseshoe_trinket"
+  ]
+}

@@ -17,14 +17,13 @@ public class PulsarFlux {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         // Register all DeferredRegisters
-        FoodFlux.register(bus);
-        MaterialFlux.register(bus);
-        SwordFlux.register(bus);
-        ToolFlux.register(bus);
-        BlockFlux.register(bus);
+        FoodItems.register(bus);
+        MaterialItems.register(bus);
+        SwordItems.register(bus);
+        ToolItems.register(bus);
+        BlockItems.register(bus);
         CreativeTabFlux.TABS.register(bus);
-        Augment.register(bus);
-
+        Trinket.register(FMLJavaModLoadingContext.get().getModEventBus());
 
         // Register mob tier events
         MobTierEvents.register();
