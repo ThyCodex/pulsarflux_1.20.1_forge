@@ -18,11 +18,15 @@ public class TrinketToolTips {
         if (stack.getItem() instanceof AgletTrinketItem) {
             tooltip.add(Component.literal("+5% Speed").withStyle(ChatFormatting.GREEN));
         } else if (stack.getItem() instanceof DivingGearTrinketItem) {
-            tooltip.add(Component.literal("Breathe underwater").withStyle(ChatFormatting.AQUA));
+            tooltip.add(Component.literal("Breathe underwater").withStyle(ChatFormatting.GREEN));
         } else if (stack.getItem() instanceof LuckyHorseshoeTrinketItem) {
-            tooltip.add(Component.literal("No fall damage").withStyle(ChatFormatting.YELLOW));
+            tooltip.add(Component.literal("No fall damage").withStyle(ChatFormatting.GREEN));
         } else if (stack.getItem() instanceof TreasureMagnetTrinketItem) {
-            tooltip.add(Component.literal("Attracts nearby items").withStyle(ChatFormatting.GOLD));
+            tooltip.add(Component.literal("Attracts nearby items").withStyle(ChatFormatting.GREEN));
+        } else if (stack.getItem() instanceof SuperMushroomTrinketItem) {
+            tooltip.add(Component.literal("Lets Get Big").withStyle(ChatFormatting.GREEN));
+        } else if (stack.getItem() instanceof MiniMushroomTrinketItem) {
+            tooltip.add(Component.literal("Small is Mighty").withStyle(ChatFormatting.GREEN));
         }
     }
 }

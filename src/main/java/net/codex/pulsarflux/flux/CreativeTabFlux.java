@@ -99,6 +99,8 @@ public class CreativeTabFlux {
                         output.accept(Trinket.DIVING_GEAR_TRINKET.get());
                         output.accept(Trinket.LUCKY_HORSESHOE_TRINKET.get());
                         output.accept(Trinket.TREASURE_MAGNET_TRINKET.get());
+                        output.accept(Trinket.SUPER_MUSHROOM_TRINKET.get());
+                        output.accept(Trinket.MINI_MUSHROOM_TRINKET.get());
 
                         //-----Ingot Blocks
                         output.accept(BlockItems.ALUMINUM_BLOCK.get());

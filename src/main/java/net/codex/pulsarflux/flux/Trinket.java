@@ -1,10 +1,7 @@
 package net.codex.pulsarflux.flux;
 
 import net.codex.pulsarflux.PulsarFlux;
-import net.codex.pulsarflux.flux.items.AgletTrinketItem;
-import net.codex.pulsarflux.flux.items.DivingGearTrinketItem;
-import net.codex.pulsarflux.flux.items.LuckyHorseshoeTrinketItem;
-import net.codex.pulsarflux.flux.items.TreasureMagnetTrinketItem;
+import net.codex.pulsarflux.flux.items.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -35,4 +32,10 @@ public class Trinket {
 
     public static final RegistryObject<Item> TREASURE_MAGNET_TRINKET =
             ITEMS.register("treasure_magnet_trinket", () -> new TreasureMagnetTrinketItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> MINI_MUSHROOM_TRINKET =
+            ITEMS.register("mini_mushroom_trinket", () -> new MiniMushroomTrinketItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> SUPER_MUSHROOM_TRINKET =
+            ITEMS.register("super_mushroom_trinket", () -> new SuperMushroomTrinketItem(new Item.Properties()));
 }

@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "pulsarflux:item/trinket/diving_gear_trinket"
+		"layer0": "pulsarflux:item/diving_gear_trinket"
 	}
 }

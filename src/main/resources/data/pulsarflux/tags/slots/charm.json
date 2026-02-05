@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "pulsarflux:aglet_trinket"
+    "pulsarflux:aglet_trinket",
+    "pulsarflux:diving_gear_trinket",
+    "pulsarflux:treasure_magnet_trinket",
+    "pulsarflux:lucky_horseshoe_trinket",
+    "pulsarflux:super_mushroom_trinket",
+    "pulsarflux:mini_mushroom_trinket"
   ]
 }

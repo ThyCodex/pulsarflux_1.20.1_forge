@@ -1,6 +1,6 @@
 {
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "pulsarflux:item/trinket/treasure_magnet_trinket"
+		"layer0": "pulsarflux:item/treasure_magnet_trinket"
 	}
 }
