@@ -1,4 +1,4 @@
-package net.codex.pulsarflux.flux;
+package net.codex.pulsarflux.flux.trinket;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.Item;
@@ -34,6 +34,6 @@ public abstract class TrinketItem extends Item implements ICurioItem {
 
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag flag) {
-        TrinketToolTips.append(stack, level, tooltip, flag);
+        TrinketToolTip.append(stack, level, tooltip, flag);
     }
 }

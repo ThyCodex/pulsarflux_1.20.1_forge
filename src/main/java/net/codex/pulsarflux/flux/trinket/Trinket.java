@@ -1,7 +1,7 @@
-package net.codex.pulsarflux.flux;
+package net.codex.pulsarflux.flux.trinket;
 
 import net.codex.pulsarflux.PulsarFlux;
-import net.codex.pulsarflux.flux.items.*;
+import net.codex.pulsarflux.flux.trinket.trinketitems.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

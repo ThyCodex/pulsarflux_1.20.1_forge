@@ -1,6 +1,6 @@
-package net.codex.pulsarflux.flux.items;
+package net.codex.pulsarflux.flux.trinket.trinketitems;
 
-import net.codex.pulsarflux.flux.TrinketItem;
+import net.codex.pulsarflux.flux.trinket.TrinketItem;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 

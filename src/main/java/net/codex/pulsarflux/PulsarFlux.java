@@ -1,6 +1,8 @@
 package net.codex.pulsarflux;
 
 import net.codex.pulsarflux.config.PulsarFluxConfig;
+import net.codex.pulsarflux.flux.sword.Sword;
+import net.codex.pulsarflux.flux.trinket.Trinket;
 import net.minecraftforge.fml.config.ModConfig;
 import net.codex.pulsarflux.flux.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,7 +21,7 @@ public class PulsarFlux {
         // Register all DeferredRegisters
         FoodItems.register(bus);
         MaterialItems.register(bus);
-        SwordItems.register(bus);
+        Sword.register(bus);
         ToolItems.register(bus);
         BlockItems.register(bus);
         CreativeTabFlux.TABS.register(bus);

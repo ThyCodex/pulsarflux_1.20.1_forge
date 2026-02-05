@@ -1,5 +1,6 @@
-package net.codex.pulsarflux.flux;
+package net.codex.pulsarflux.flux.sword;
 
+import net.codex.pulsarflux.flux.MaterialItems;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.common.ForgeTier;

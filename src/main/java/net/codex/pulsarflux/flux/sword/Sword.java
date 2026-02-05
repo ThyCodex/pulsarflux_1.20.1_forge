@@ -1,4 +1,4 @@
-package net.codex.pulsarflux.flux;
+package net.codex.pulsarflux.flux.sword;
 
 import net.codex.pulsarflux.PulsarFlux;
 import net.minecraft.world.item.SwordItem;
@@ -8,7 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class SwordItems {
+public class Sword {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, PulsarFlux.MOD_ID);
 
     public static void register(IEventBus bus) {

@@ -1,6 +1,7 @@
-package net.codex.pulsarflux.flux;
+package net.codex.pulsarflux.flux.sword;
 
 import net.codex.pulsarflux.PulsarFlux;
+import net.codex.pulsarflux.flux.ToolTags;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;

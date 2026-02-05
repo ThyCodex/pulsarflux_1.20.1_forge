@@ -1,6 +1,8 @@
 package net.codex.pulsarflux.flux;
 
 import net.codex.pulsarflux.PulsarFlux;
+import net.codex.pulsarflux.flux.sword.Sword;
+import net.codex.pulsarflux.flux.trinket.Trinket;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -62,23 +64,23 @@ public class CreativeTabFlux {
                         output.accept(MaterialItems.TIN_INGOT.get());
 
                         //-----Weapons
-                        output.accept(SwordItems.ALUMINUM_SWORD.get());
-                        output.accept(SwordItems.BRONZE_SWORD.get());
-                        output.accept(SwordItems.CONSTANTAN_SWORD.get());
-                        output.accept(SwordItems.ELECTRUM_SWORD.get());
-                        output.accept(SwordItems.INVAR_SWORD.get());
-                        output.accept(SwordItems.LEAD_SWORD.get());
-                        output.accept(SwordItems.NICKEL_SWORD.get());
-                        output.accept(SwordItems.PLATINUM_SWORD.get());
-                        output.accept(SwordItems.SILVER_SWORD.get());
-                        output.accept(SwordItems.STEEL_SWORD.get());
-                        output.accept(SwordItems.TIN_SWORD.get());
-                        output.accept(SwordItems.BLUE_PHASEBLADE.get());
-                        output.accept(SwordItems.GREEN_PHASEBLADE.get());
-                        output.accept(SwordItems.PURPLE_PHASEBLADE.get());
-                        output.accept(SwordItems.RED_PHASEBLADE.get());
-                        output.accept(SwordItems.WHITE_PHASEBLADE.get());
-                        output.accept(SwordItems.YELLOW_PHASEBLADE.get());
+                        output.accept(Sword.ALUMINUM_SWORD.get());
+                        output.accept(Sword.BRONZE_SWORD.get());
+                        output.accept(Sword.CONSTANTAN_SWORD.get());
+                        output.accept(Sword.ELECTRUM_SWORD.get());
+                        output.accept(Sword.INVAR_SWORD.get());
+                        output.accept(Sword.LEAD_SWORD.get());
+                        output.accept(Sword.NICKEL_SWORD.get());
+                        output.accept(Sword.PLATINUM_SWORD.get());
+                        output.accept(Sword.SILVER_SWORD.get());
+                        output.accept(Sword.STEEL_SWORD.get());
+                        output.accept(Sword.TIN_SWORD.get());
+                        output.accept(Sword.BLUE_PHASEBLADE.get());
+                        output.accept(Sword.GREEN_PHASEBLADE.get());
+                        output.accept(Sword.PURPLE_PHASEBLADE.get());
+                        output.accept(Sword.RED_PHASEBLADE.get());
+                        output.accept(Sword.WHITE_PHASEBLADE.get());
+                        output.accept(Sword.YELLOW_PHASEBLADE.get());
 
                         //-----Tools
                         output.accept(ToolItems.BRONZE_AXE.get());

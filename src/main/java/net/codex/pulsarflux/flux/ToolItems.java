@@ -1,6 +1,7 @@
 package net.codex.pulsarflux.flux;
 
 import net.codex.pulsarflux.PulsarFlux;
+import net.codex.pulsarflux.flux.sword.SwordTier;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
