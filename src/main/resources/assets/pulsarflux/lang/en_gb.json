@@ -1,7 +1,6 @@
 {
   "itemGroup.pulsarflux": "Pulsarflux",
 
-
   "tooltip.pulsarflux.lead_sword": "Slows you while held",
   "tooltip.pulsarflux.silver_sword": "Applies Weakness on hit",
   "tooltip.pulsarflux.platinum_sword": "15% Chance to Leech Life",
@@ -10,7 +9,7 @@
   "tooltip.pulsarflux.red_phaseblade": "Sets enemies ablaze!",
   "tooltip.pulsarflux.purple_phaseblade": "Teleports enemies randomly.",
 
-  "item.pulsarflux.aluminum_apple": "Aluminum Apple",
+  "item.pulsarflux.aluminum_apple": "Aluminium Apple",
   "item.pulsarflux.bronze_apple": "Bronze Apple",
   "item.pulsarflux.constantan_apple": "Constantan Apple",
   "item.pulsarflux.electrum_apple": "Electrum Apple",
@@ -23,8 +22,7 @@
   "item.pulsarflux.steel_apple": "Steel Apple",
   "item.pulsarflux.tin_apple": "Tin Apple",
 
-
-  "item.pulsarflux.aluminum_sword": "Aluminum Sword",
+  "item.pulsarflux.aluminum_sword": "Aluminium Sword",
   "item.pulsarflux.bronze_sword": "Bronze Sword",
   "item.pulsarflux.constantan_sword": "Constantan Sword",
   "item.pulsarflux.electrum_sword": "Electrum Sword",
@@ -60,7 +58,7 @@
   "item.pulsarflux.super_mushroom_trinket": "Super Mushroom",
   "item.pulsarflux.mini_mushroom_trinket": "Mini Mushroom",
 
-  "item.pulsarflux.raw_aluminum": "Raw Aluminum",
+  "item.pulsarflux.raw_aluminum": "Raw Aluminium",
   "item.pulsarflux.raw_electrum": "Raw Electrum",
   "item.pulsarflux.raw_lead": "Raw Lead",
   "item.pulsarflux.raw_lonsdaleite": "Raw Lonsdaleite",
@@ -69,7 +67,7 @@
   "item.pulsarflux.raw_silver": "Raw Silver",
   "item.pulsarflux.raw_tin": "Raw Tin",
 
-  "item.pulsarflux.aluminum_ingot": "Aluminum Ingot",
+  "item.pulsarflux.aluminum_ingot": "Aluminium Ingot",
   "item.pulsarflux.bronze_ingot": "Bronze Ingot",
   "item.pulsarflux.constantan_ingot": "Constantan Ingot",
   "item.pulsarflux.electrum_ingot": "Electrum Ingot",
@@ -82,7 +80,7 @@
   "item.pulsarflux.steel_ingot": "Steel Ingot",
   "item.pulsarflux.tin_ingot": "Tin Ingot",
 
-  "block.pulsarflux.aluminum_ore": "Aluminum Ore",
+  "block.pulsarflux.aluminum_ore": "Aluminium Ore",
   "block.pulsarflux.electrum_ore": "Electrum Ore",
   "block.pulsarflux.lead_ore": "Lead Ore",
   "block.pulsarflux.lonsdaleite_ore": "Lonsdaleite Ore",
@@ -91,7 +89,7 @@
   "block.pulsarflux.silver_ore": "Silver Ore",
   "block.pulsarflux.tin_ore": "Tin Ore",
 
-  "block.pulsarflux.raw_aluminum_block": "Raw Aluminum Block",
+  "block.pulsarflux.raw_aluminum_block": "Raw Aluminium Block",
   "block.pulsarflux.raw_electrum_block": "Raw Electrum Block",
   "block.pulsarflux.raw_lead_block": "Raw Lead Block",
   "block.pulsarflux.raw_lonsdaleite_block": "Raw Lonsdaleite Block",
@@ -112,8 +110,4 @@
   "block.pulsarflux.silver_block": "Silver Block",
   "block.pulsarflux.steel_block": "Steel Block",
   "block.pulsarflux.tin_block": "Tin Block"
-
-
-
-
 }

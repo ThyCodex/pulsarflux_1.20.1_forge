@@ -76,11 +76,8 @@ public class CreativeTabFlux {
                         output.accept(Sword.STEEL_SWORD.get());
                         output.accept(Sword.TIN_SWORD.get());
                         output.accept(Sword.BLUE_PHASEBLADE.get());
-                        output.accept(Sword.GREEN_PHASEBLADE.get());
                         output.accept(Sword.PURPLE_PHASEBLADE.get());
                         output.accept(Sword.RED_PHASEBLADE.get());
-                        output.accept(Sword.WHITE_PHASEBLADE.get());
-                        output.accept(Sword.YELLOW_PHASEBLADE.get());
 
                         //-----Tools
                         output.accept(ToolItems.BRONZE_AXE.get());
