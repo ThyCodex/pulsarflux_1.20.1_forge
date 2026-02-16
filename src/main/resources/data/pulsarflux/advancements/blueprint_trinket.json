@@ -1,12 +1,12 @@
 {
   "criteria": {
-    "has_trinket_scrap": {
+    "has_scrap_metal": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "pulsarflux:scrap_trinket"
+              "pulsarflux:scrap_metal"
             ]
           }
         ]
@@ -15,7 +15,7 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:shaped/blueprint_from_trinket_scrap"
+      "pulsarflux:shaped/blueprint_from_scrap_metal"
     ]
   },
   "sends_telemetry_event": false

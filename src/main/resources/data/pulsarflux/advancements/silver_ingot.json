@@ -18,8 +18,7 @@
       "pulsarflux:shaped/silver_apple",
       "pulsarflux:shaped/silver_sword",
       "pulsarflux:shaped/silver_block_from_silver_ingot",
-      "pulsarflux:shapeless/silver_ingot_from_silver_block",
-      "pulsarflux:shaped/lonsdaleite_from_lonsdaleite_and_silver"
+      "pulsarflux:shapeless/silver_ingot_from_silver_block"
     ]
   },
   "sends_telemetry_event": false

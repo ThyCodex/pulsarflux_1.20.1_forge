@@ -8,14 +8,14 @@
   ],
   "key": {
     "#": {
-      "item": "pulsarflux:scrap_trinket"
+      "item": "pulsarflux:scrap_metal"
     },
     "$": {
       "item": "minecraft:paper"
     }
   },
   "result": {
-    "item": "pulsarflux:blueprint_trinket",
+    "item": "pulsarflux:blueprint",
     "count": 1
   }
 }

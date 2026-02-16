@@ -1,12 +1,12 @@
 {
   "criteria": {
-    "has_blueprint_trinket": {
+    "has_blueprint": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "pulsarflux:blueprint_trinket"
+              "pulsarflux:blueprint"
             ]
           }
         ]

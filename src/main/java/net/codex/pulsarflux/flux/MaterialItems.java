@@ -39,6 +39,6 @@ public class MaterialItems {
     public static final RegistryObject<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(new Item.Properties()));
 
     //-----Other
-    public static final RegistryObject<Item> BLUEPRINT_TRINKET = ITEMS.register("blueprint_trinket", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> SCRAP_TRINKET = ITEMS.register("scrap_trinket", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BLUEPRINT = ITEMS.register("blueprint", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SCRAP_METAL = ITEMS.register("scrap_metal", () -> new Item(new Item.Properties()));
 }

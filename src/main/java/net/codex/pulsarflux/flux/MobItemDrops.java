@@ -24,17 +24,16 @@ public class MobItemDrops {
      */
     private static final Map<EntityType<?>, List<Pair<Supplier<ItemStack>, Double>>> MOB_DROPS = Map.of(
             EntityType.ZOMBIE, List.of(
-                    Pair.of(() -> new ItemStack(FoodItems.TIN_APPLE.get()), 0.05)
-            )
+                    Pair.of(() -> new ItemStack(FoodItems.NICKEL_APPLE.get()), 0.02),
+                    Pair.of(() -> new ItemStack(MaterialItems.TIN_INGOT.get()), 0.03)),
+            EntityType.SPIDER, List.of(Pair.of(() -> new ItemStack(FoodItems.TIN_APPLE.get()), 0.02))
     );
 
     /*
      * Category-based drops (ex: ALL hostile mobs)
      */
     private static final Map<MobCategory, List<Pair<Supplier<ItemStack>, Double>>> CATEGORY_DROPS = Map.of(
-            MobCategory.MONSTER, List.of(
-                    Pair.of(() -> new ItemStack(MaterialItems.SCRAP_TRINKET.get()), 0.03)
-            )
+            MobCategory.MONSTER, List.of(Pair.of(() -> new ItemStack(MaterialItems.SCRAP_METAL.get()), 0.03))
     );
 
     @SubscribeEvent

@@ -99,8 +99,8 @@
   "block.pulsarflux.steel_block": "Steel Block",
   "block.pulsarflux.tin_block": "Tin Block",
 
-  "item.pulsarflux.blueprint_trinket": "Blueprint",
-  "item.pulsarflux.scrap_trinket": "Trinket Scrap",
+  "item.pulsarflux.blueprint": "Blueprint",
+  "item.pulsarflux.scrap_metal": "Scrap Metal",
   "tooltip.pulsarflux.tin_apple": "Jump Boost 1 +15s",
   "tooltip.pulsarflux.aluminum_apple": "Speed 1 +15s",
   "tooltip.pulsarflux.bronze_apple": "Fire Resistance 1 +15s",
