@@ -1,6 +1,7 @@
 package net.codex.pulsarflux.flux;
 
 import net.codex.pulsarflux.PulsarFlux;
+import net.codex.pulsarflux.flux.food.FoodItems;
 import net.codex.pulsarflux.flux.sword.Sword;
 import net.codex.pulsarflux.flux.trinket.Trinket;
 import net.minecraft.core.registries.Registries;
@@ -40,7 +41,7 @@ public class CreativeTabFlux {
                         output.accept(FoodItems.STEEL_APPLE.get());
                         output.accept(FoodItems.TIN_APPLE.get());
 
-                        //-----Materials / Ingots
+                        //-----Materials
                         output.accept(MaterialItems.RAW_ALUMINUM.get());
                         output.accept(MaterialItems.RAW_ELECTRUM.get());
                         output.accept(MaterialItems.RAW_LEAD.get());
@@ -62,6 +63,9 @@ public class CreativeTabFlux {
                         output.accept(MaterialItems.SILVER_INGOT.get());
                         output.accept(MaterialItems.STEEL_INGOT.get());
                         output.accept(MaterialItems.TIN_INGOT.get());
+
+                        output.accept(MaterialItems.BLUEPRINT_TRINKET.get());
+                        output.accept(MaterialItems.SCRAP_TRINKET.get());
 
                         //-----Weapons
                         output.accept(Sword.ALUMINUM_SWORD.get());
@@ -98,8 +102,6 @@ public class CreativeTabFlux {
                         output.accept(Trinket.DIVING_GEAR_TRINKET.get());
                         output.accept(Trinket.LUCKY_HORSESHOE_TRINKET.get());
                         output.accept(Trinket.TREASURE_MAGNET_TRINKET.get());
-                        output.accept(Trinket.SUPER_MUSHROOM_TRINKET.get());
-                        output.accept(Trinket.MINI_MUSHROOM_TRINKET.get());
 
                         //-----Ingot Blocks
                         output.accept(BlockItems.ALUMINUM_BLOCK.get());

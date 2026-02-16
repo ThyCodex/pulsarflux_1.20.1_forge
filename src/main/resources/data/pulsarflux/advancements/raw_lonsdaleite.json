@@ -15,8 +15,8 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:block/raw_lonsdaleite_block_from_raw_lonsdaleite",
-      "pulsarflux:block/raw_lonsdaleite_from_raw_lonsdaleite_block",
+      "pulsarflux:shaped/raw_lonsdaleite_block_from_raw_lonsdaleite",
+      "pulsarflux:shapeless/raw_lonsdaleite_from_raw_lonsdaleite_block",
       "pulsarflux:crafting_tables/lonsdaleite_from_lonsdaleite_and_platinum"
     ]
   },

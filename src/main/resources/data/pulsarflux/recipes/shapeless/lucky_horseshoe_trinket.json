@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pulsarflux:blueprint_trinket"
+    },
+    {
+      "item": "pulsarflux:silver_ingot"
+    }
+  ],
+  "result": {
+    "item": "pulsarflux:lucky_horseshoe_trinket",
+    "count": 1
+  }
+}

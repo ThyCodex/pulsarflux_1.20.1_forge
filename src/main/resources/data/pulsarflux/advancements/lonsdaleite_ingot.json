@@ -15,12 +15,12 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:apple/lonsdaleite_apple",
-      "pulsarflux:block/lonsdaleite_block_from_lonsdaleite_ingot",
-      "pulsarflux:block/lonsdaleite_ingot_from_lonsdaleite_block",
-      "pulsarflux:sword/blue_phaseblade",
-      "pulsarflux:sword/purple_phaseblade",
-      "pulsarflux:sword/red_phaseblade"
+      "pulsarflux:shaped/lonsdaleite_apple",
+      "pulsarflux:shaped/lonsdaleite_block_from_lonsdaleite_ingot",
+      "pulsarflux:shapeless/lonsdaleite_ingot_from_lonsdaleite_block",
+      "pulsarflux:shaped/blue_phaseblade",
+      "pulsarflux:shaped/purple_phaseblade",
+      "pulsarflux:shaped/red_phaseblade"
     ]
   },
   "sends_telemetry_event": false

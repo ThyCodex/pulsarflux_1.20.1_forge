@@ -32,10 +32,4 @@ public class Trinket {
 
     public static final RegistryObject<Item> TREASURE_MAGNET_TRINKET =
             ITEMS.register("treasure_magnet_trinket", () -> new TreasureMagnetTrinketItem(new Item.Properties()));
-
-    public static final RegistryObject<Item> MINI_MUSHROOM_TRINKET =
-            ITEMS.register("mini_mushroom_trinket", () -> new MiniMushroomTrinketItem(new Item.Properties()));
-
-    public static final RegistryObject<Item> SUPER_MUSHROOM_TRINKET =
-            ITEMS.register("super_mushroom_trinket", () -> new SuperMushroomTrinketItem(new Item.Properties()));
 }

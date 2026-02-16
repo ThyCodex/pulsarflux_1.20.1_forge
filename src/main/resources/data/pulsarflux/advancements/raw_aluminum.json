@@ -15,8 +15,8 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:block/raw_aluminum_block_from_raw_aluminum",
-      "pulsarflux:block/raw_aluminum_from_raw_aluminum_block",
+      "pulsarflux:shaped/raw_aluminum_block_from_raw_aluminum",
+      "pulsarflux:shapeless/raw_aluminum_from_raw_aluminum_block",
       "pulsarflux:blasting/aluminum_ingot_from_blasting_aluminum_ore",
       "pulsarflux:blasting/aluminum_ingot_from_blasting_raw_aluminum",
       "pulsarflux:smelting/aluminum_ingot_from_smelting_aluminum_ore",

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "has_blueprint_trinket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pulsarflux:blueprint_trinket"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pulsarflux:shapeless/aglet_trinket",
+      "pulsarflux:shapeless/diving_gear_trinket",
+      "pulsarflux:shapeless/lucky_horseshoe_trinket",
+      "pulsarflux:shapeless/treasure_magnet_trinket"
+    ]
+  },
+  "sends_telemetry_event": false
+}

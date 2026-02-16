@@ -15,10 +15,10 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:apple/invar_apple",
-      "pulsarflux:sword/invar_sword",
-      "pulsarflux:block/invar_block_from_invar_ingot",
-      "pulsarflux:block/invar_ingot_from_invar_block"
+      "pulsarflux:shaped/invar_apple",
+      "pulsarflux:shaped/invar_sword",
+      "pulsarflux:shaped/invar_block_from_invar_ingot",
+      "pulsarflux:shapeless/invar_ingot_from_invar_block"
     ]
   },
   "sends_telemetry_event": false

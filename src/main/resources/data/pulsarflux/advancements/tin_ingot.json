@@ -15,11 +15,11 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:apple/tin_apple",
-      "pulsarflux:sword/tin_sword",
-      "pulsarflux:block/tin_block_from_tin_ingot",
-      "pulsarflux:block/tin_ingot_from_tin_block",
-      "pulsarflux:crafting_table/bronze_from_copper_and_tin"
+      "pulsarflux:shaped/tin_apple",
+      "pulsarflux:shaped/tin_sword",
+      "pulsarflux:shaped/tin_block_from_tin_ingot",
+      "pulsarflux:shapeless/tin_ingot_from_tin_block",
+      "pulsarflux:shaped/bronze_from_copper_and_tin"
     ]
   },
   "sends_telemetry_event": false

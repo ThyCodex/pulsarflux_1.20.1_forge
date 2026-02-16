@@ -15,10 +15,10 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:apple/constantan_apple",
-      "pulsarflux:sword/constantan_sword",
-      "pulsarflux:block/constantan_block_from_constantan_ingot",
-      "pulsarflux:block/constantan_ingot_from_constantan_block"
+      "pulsarflux:shaped/constantan_apple",
+      "pulsarflux:shaped/constantan_sword",
+      "pulsarflux:shaped/constantan_block_from_constantan_ingot",
+      "pulsarflux:shapeless/constantan_ingot_from_constantan_block"
     ]
   },
   "sends_telemetry_event": false

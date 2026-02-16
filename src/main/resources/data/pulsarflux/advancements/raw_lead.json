@@ -15,8 +15,8 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:block/raw_lead_block_from_raw_lead",
-      "pulsarflux:block/raw_lead_from_raw_lead_block",
+      "pulsarflux:shaped/raw_lead_block_from_raw_lead",
+      "pulsarflux:shapeless/raw_lead_from_raw_lead_block",
       "pulsarflux:blasting/lead_ingot_from_blasting_lead_ore",
       "pulsarflux:blasting/lead_ingot_from_blasting_raw_lead",
       "pulsarflux:smelting/lead_ingot_from_smelting_lead_ore",

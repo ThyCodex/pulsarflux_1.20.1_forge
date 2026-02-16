@@ -4,37 +4,24 @@ import net.minecraftforge.common.ForgeConfigSpec;
 
 public class PulsarFluxConfig {
 
-    public static final ForgeConfigSpec COMMON_SPEC;
     public static final Common COMMON;
+    public static final ForgeConfigSpec COMMON_SPEC;
 
     static {
-        Common.Builder builder = new Common.Builder();
+        ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
+        COMMON = new Common(builder);
         COMMON_SPEC = builder.build();
-        COMMON = builder.common;
     }
 
     public static class Common {
         public final ForgeConfigSpec.BooleanValue enableMobTiers;
 
-        private final Builder builder;
-
-        public Common(Builder builder, ForgeConfigSpec.Builder forgeBuilder) {
-            this.builder = builder;
-
-            forgeBuilder.push("mob_tiers");
-            enableMobTiers = forgeBuilder
+        public Common(ForgeConfigSpec.Builder builder) {
+            builder.push("mob_tiers"); // Section name
+            enableMobTiers = builder
                     .comment("Enable the star tier system for mobs. Set to false to disable completely.")
                     .define("enableMobTiers", true);
-            forgeBuilder.pop();
-        }
-
-        public static class Builder {
-            private Common common;
-            public ForgeConfigSpec build() {
-                ForgeConfigSpec.Builder forgeBuilder = new ForgeConfigSpec.Builder();
-                common = new Common(this, forgeBuilder);
-                return forgeBuilder.build();
-            }
+            builder.pop();
         }
     }
 }

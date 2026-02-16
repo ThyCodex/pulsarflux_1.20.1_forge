@@ -15,14 +15,14 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:apple/bronze_apple",
-      "pulsarflux:sword/bronze_sword",
-      "pulsarflux:tool/bronze_axe",
-      "pulsarflux:tool/bronze_hoe",
-      "pulsarflux:tool/bronze_pickaxe",
-      "pulsarflux:tool/bronze_shovel",
-      "pulsarflux:block/bronze_block_from_bronze_ingot",
-      "pulsarflux:block/bronze_ingot_from_bronze_block"
+      "pulsarflux:shaped/bronze_apple",
+      "pulsarflux:shaped/bronze_sword",
+      "pulsarflux:shaped/bronze_axe",
+      "pulsarflux:shaped/bronze_hoe",
+      "pulsarflux:shaped/bronze_pickaxe",
+      "pulsarflux:shaped/bronze_shovel",
+      "pulsarflux:shaped/bronze_block_from_bronze_ingot",
+      "pulsarflux:shapeless/bronze_ingot_from_bronze_block"
     ]
   },
   "sends_telemetry_event": false

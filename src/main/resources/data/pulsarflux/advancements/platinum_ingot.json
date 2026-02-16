@@ -15,15 +15,15 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:apple/platinum_apple",
-      "pulsarflux:sword/platinum_sword",
-      "pulsarflux:tool/platinum_axe",
-      "pulsarflux:tool/platinum_hoe",
-      "pulsarflux:tool/platinum_pickaxe",
-      "pulsarflux:tool/platinum_shovel",
-      "pulsarflux:block/platinum_block_from_platinum_ingot",
-      "pulsarflux:block/platinum_ingot_from_platinum_block",
-      "pulsarflux:crafting_table/lonsdaleite_from_lonsdaleite_and_platinum"
+      "pulsarflux:shaped/platinum_apple",
+      "pulsarflux:shaped/platinum_sword",
+      "pulsarflux:shaped/platinum_axe",
+      "pulsarflux:shaped/platinum_hoe",
+      "pulsarflux:shaped/platinum_pickaxe",
+      "pulsarflux:shaped/platinum_shovel",
+      "pulsarflux:shaped/platinum_block_from_platinum_ingot",
+      "pulsarflux:shapeless/platinum_ingot_from_platinum_block",
+      "pulsarflux:shaped/lonsdaleite_from_lonsdaleite_and_platinum"
     ]
   },
   "sends_telemetry_event": false

@@ -1,12 +1,12 @@
 {
   "criteria": {
-    "has_lead_ingot": {
+    "has_trinket_scrap": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "pulsarflux:lead_ingot"
+              "pulsarflux:scrap_trinket"
             ]
           }
         ]
@@ -15,10 +15,7 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:shaped/lead_apple",
-      "pulsarflux:shaped/lead_sword",
-      "pulsarflux:shaped/lead_block_from_lead_ingot",
-      "pulsarflux:shapeless/lead_ingot_from_lead_block"
+      "pulsarflux:shaped/blueprint_from_trinket_scrap"
     ]
   },
   "sends_telemetry_event": false

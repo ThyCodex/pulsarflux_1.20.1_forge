@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pulsarflux:blueprint_trinket"
+    },
+    {
+      "item": "pulsarflux:electrum_ingot"
+    }
+  ],
+  "result": {
+    "item": "pulsarflux:treasure_magnet_trinket",
+    "count": 1
+  }
+}

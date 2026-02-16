@@ -15,8 +15,8 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:block/raw_nickel_block_from_raw_nickel",
-      "pulsarflux:block/raw_nickel_from_raw_nickel_block",
+      "pulsarflux:shaped/raw_nickel_block_from_raw_nickel",
+      "pulsarflux:shapeless/raw_nickel_from_raw_nickel_block",
       "pulsarflux:blasting/nickel_ingot_from_blasting_nickel_ore",
       "pulsarflux:blasting/nickel_ingot_from_blasting_raw_nickel",
       "pulsarflux:smelting/nickel_ingot_from_smelting_nickel_ore",

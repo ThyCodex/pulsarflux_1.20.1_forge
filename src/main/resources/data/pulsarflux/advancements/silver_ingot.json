@@ -15,11 +15,11 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:apple/silver_apple",
-      "pulsarflux:sword/silver_sword",
-      "pulsarflux:block/silver_block_from_silver_ingot",
-      "pulsarflux:block/silver_ingot_from_silver_block",
-      "pulsarflux:crafting_table/lonsdaleite_from_lonsdaleite_and_silver"
+      "pulsarflux:shaped/silver_apple",
+      "pulsarflux:shaped/silver_sword",
+      "pulsarflux:shaped/silver_block_from_silver_ingot",
+      "pulsarflux:shapeless/silver_ingot_from_silver_block",
+      "pulsarflux:shaped/lonsdaleite_from_lonsdaleite_and_silver"
     ]
   },
   "sends_telemetry_event": false

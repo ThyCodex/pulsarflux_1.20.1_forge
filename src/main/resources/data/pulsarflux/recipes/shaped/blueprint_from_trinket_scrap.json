@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " # ",
+    "###",
     "#$#",
-    " # "
+    "###"
   ],
   "key": {
     "#": {
-      "item": "pulsarflux:bronze_ingot"
+      "item": "pulsarflux:scrap_trinket"
     },
     "$": {
-      "item": "minecraft:apple"
+      "item": "minecraft:paper"
     }
   },
   "result": {
-    "item": "pulsarflux:bronze_apple"
+    "item": "pulsarflux:blueprint_trinket",
+    "count": 1
   }
 }
-

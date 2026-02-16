@@ -15,8 +15,8 @@
   },
   "rewards": {
     "recipes": [
-      "pulsarflux:block/raw_electrum_block_from_raw_electrum",
-      "pulsarflux:block/raw_electrum_from_raw_electrum_block",
+      "pulsarflux:shaped/raw_electrum_block_from_raw_electrum",
+      "pulsarflux:shapeless/raw_electrum_from_raw_electrum_block",
       "pulsarflux:blasting/electrum_ingot_from_blasting_electrum_ore",
       "pulsarflux:blasting/electrum_ingot_from_blasting_raw_electrum",
       "pulsarflux:smelting/electrum_ingot_from_smelting_electrum_ore",
