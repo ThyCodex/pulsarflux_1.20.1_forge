@@ -15,6 +15,7 @@
   },
   "rewards": {
     "recipes": [
+      "pulsarflux:shaped/home_stone",
       "pulsarflux:shaped/bronze_apple",
       "pulsarflux:shaped/bronze_sword",
       "pulsarflux:shaped/bronze_axe",

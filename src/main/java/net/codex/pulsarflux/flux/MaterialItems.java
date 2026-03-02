@@ -1,6 +1,7 @@
 package net.codex.pulsarflux.flux;
 
 import net.codex.pulsarflux.PulsarFlux;
+import net.codex.pulsarflux.flux.item.HomeStoneItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -41,4 +42,7 @@ public class MaterialItems {
     //-----Other
     public static final RegistryObject<Item> BLUEPRINT = ITEMS.register("blueprint", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SCRAP_METAL = ITEMS.register("scrap_metal", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HOME_STONE = ITEMS.register("home_stone",
+            () -> new HomeStoneItem(new Item.Properties().durability(3)));
+
 }

@@ -66,6 +66,7 @@ public class CreativeTabFlux {
 
                         output.accept(MaterialItems.BLUEPRINT.get());
                         output.accept(MaterialItems.SCRAP_METAL.get());
+                        output.accept(MaterialItems.HOME_STONE.get());
 
                         //-----Weapons
                         output.accept(Sword.ALUMINUM_SWORD.get());

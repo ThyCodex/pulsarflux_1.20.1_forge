@@ -112,18 +112,7 @@
   "tooltip.pulsarflux.silver_apple": "Night Vision +15s",
   "tooltip.pulsarflux.steel_apple": "Resistance 1 & Fire Resistance 1 +15s",
   "tooltip.pulsarflux.platinum_apple": "Jump Boost 2 & Speed 2 +15s",
-  "tooltip.pulsarflux.lonsdaleite_apple": "Luck 2 & Haste 2 +15s"
-
-
-
-
-
-
-
-
-
-
-
-
-
+  "tooltip.pulsarflux.lonsdaleite_apple": "Luck 2 & Haste 2 +15s",
+  "item.pulsarflux.home_stone": "Home Stone",
+  "tooltip.pulsarflux.home_stone": "Hold To Portal Home"
 }
