@@ -98,50 +98,60 @@ public class HomeStoneItem extends Item {
     }
 
     private void teleportPlayer(ServerPlayer player, Level level) {
+
         ServerLevel targetLevel;
         double targetX, targetY, targetZ;
 
         BlockPos respawnPos = player.getRespawnPosition();
-        float respawnAngle = 0f;
         Optional<Vec3> respawnVec = Optional.empty();
 
         if (respawnPos != null) {
-            Level playerLevel = player.level();
-            if (playerLevel instanceof ServerLevel serverLevel) {
+
+            // ✅ Get correct dimension of the bed
+            ServerLevel respawnLevel = player.server.getLevel(player.getRespawnDimension());
+
+            if (respawnLevel != null) {
                 respawnVec = Player.findRespawnPositionAndUseSpawnBlock(
-                        serverLevel,
+                        respawnLevel,
                         respawnPos,
-                        respawnAngle,
+                        0f,
                         false,
                         true
                 );
 
-                if (respawnVec.isEmpty()) {
-                    respawnPos = null;
+                if (respawnVec.isPresent()) {
+                    targetLevel = respawnLevel;
+                    targetX = respawnVec.get().x;
+                    targetY = respawnVec.get().y;
+                    targetZ = respawnVec.get().z;
+
+                    player.teleportTo(targetLevel, targetX, targetY, targetZ,
+                            player.getYRot(), player.getXRot());
+
+                    targetLevel.playSound(null, targetX, targetY, targetZ,
+                            SoundEvents.ENDERMAN_TELEPORT,
+                            SoundSource.PLAYERS, 1f, 1f);
+
+                    return; // stop here
                 }
             }
         }
 
-        if (respawnPos != null && respawnVec.isPresent()) {
-            targetLevel = (ServerLevel) player.level();
-            targetX = respawnVec.get().x;
-            targetY = respawnVec.get().y;
-            targetZ = respawnVec.get().z;
-        } else {
-            targetLevel = player.server.getLevel(Level.OVERWORLD);
-            assert targetLevel != null;
-            BlockPos spawn = targetLevel.getSharedSpawnPos();
-            targetX = spawn.getX() + 0.5;
-            targetY = spawn.getY() + 1;
-            targetZ = spawn.getZ() + 0.5;
-        }
+        // 🔁 Fallback to Overworld spawn
+        targetLevel = player.server.getLevel(Level.OVERWORLD);
+        assert targetLevel != null;
 
-        // teleport first
-        player.teleportTo(targetLevel, targetX, targetY, targetZ, player.getYRot(), player.getXRot());
+        BlockPos spawn = targetLevel.getSharedSpawnPos();
+        targetX = spawn.getX() + 0.5;
+        targetY = spawn.getY() + 1;
+        targetZ = spawn.getZ() + 0.5;
 
-        // play teleport sound at the new location
+        player.teleportTo(targetLevel, targetX, targetY, targetZ,
+                player.getYRot(), player.getXRot());
+
         targetLevel.playSound(null, targetX, targetY, targetZ,
-                SoundEvents.ENDERMAN_TELEPORT, SoundSource.PLAYERS, 1f, 1f);
+                SoundEvents.ENDERMAN_TELEPORT,
+                SoundSource.PLAYERS, 1f, 1f);
     }
 
     @Override
