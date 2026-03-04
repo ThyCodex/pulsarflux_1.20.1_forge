@@ -113,6 +113,8 @@
   "tooltip.pulsarflux.steel_apple": "Resistance 1 & Fire Resistance 1 +15s",
   "tooltip.pulsarflux.platinum_apple": "Jump Boost 2 & Speed 2 +15s",
   "tooltip.pulsarflux.lonsdaleite_apple": "Luck 2 & Haste 2 +15s",
-  "item.pulsarflux.home_stone": "Home Stone",
-  "tooltip.pulsarflux.home_stone": "Hold To Portal Home"
+  "item.pulsarflux.home_stone": "Hearthstone",
+  "tooltip.pulsarflux.home_stone": "Portals you to your spawn",
+  "item.pulsarflux.return_stone": "Wayfinder",
+  "tooltip.pulsarflux.return_stone": "Right Click block to bind location"
 }
