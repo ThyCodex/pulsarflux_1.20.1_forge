@@ -17,6 +17,7 @@
     "recipes": [
       "pulsarflux:shaped/silver_apple",
       "pulsarflux:shaped/silver_sword",
+      "pulsarflux:shaped/return_stone",
       "pulsarflux:shaped/silver_block_from_silver_ingot",
       "pulsarflux:shapeless/silver_ingot_from_silver_block"
     ]

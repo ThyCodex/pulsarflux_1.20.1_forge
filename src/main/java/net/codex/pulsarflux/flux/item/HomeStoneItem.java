@@ -163,4 +163,10 @@ public class HomeStoneItem extends Item {
 
         super.appendHoverText(stack, level, tooltip, flag);
     }
+
+    @Override
+    public boolean isValidRepairItem(@NotNull ItemStack toRepair,
+                                     @NotNull ItemStack repair) {
+        return repair.is(net.minecraft.world.item.Items.EMERALD);
+    }
 }
