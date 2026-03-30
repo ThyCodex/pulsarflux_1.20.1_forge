@@ -33,8 +33,8 @@ public class PulsarFlux {
         MinecraftForge.EVENT_BUS.register(new MobItemDrops());
 
 
-        // Register mob tier events
-        MobTierEvents.register();
+        // Register mob tier events - currently disabled till fixed
+        ///MobTierEvents.register();
 
         // ---- REGISTER CONFIG ----
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, PulsarFluxConfig.COMMON_SPEC);
